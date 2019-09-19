@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SPRCOM-92078 My Sprint App iOS - Payment">
+
+    <test verbose="2" name="Driver_Launch - iOS iPhone8 BETA6.15">
+        <groups>
+            <run>
+                <include name="MainBase" />
+            </run>
+        </groups>
+        <classes>
+            <class name="iOS_Tests.MainBase" />
+        </classes>
+    </test>
+
+    <test verbose="2" name="SPRCOM_106300_iOS_NonLogin_Payment" enabled="false">
+        <groups>
+            <run>
+                <include name="MakePayment" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_MakePayment" />
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_CardTypeVerify" />
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_ApplePay" />
+        </classes>
+    </test>
+
+    <test verbose="2" name="SPRCOM_106800_iOS_LoginAO_Payment">
+        <groups>
+            <run>
+                <include name="AccountOwner" />
+            </run>
+        </groups>
+        <classes>
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106800_iOS_LoginAO_Login" />
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106800_iOS_LoginAO_MakePayment" />
+        </classes>
+    </test>
+
+</suite>

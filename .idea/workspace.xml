@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2419738c-ece9-4cf1-adce-dca128d6c112" name="Default Changelist" comment="123 test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPRCOM_92078.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SPRCOM_92078.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/SPRCOM_106308_CardNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/SPRCOM_107202_DeviceOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/SPRCOM_107202_DeviceOptions_Upgrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_AddNewLine_Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_AddNewLine_Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_UpgradeAO_Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_UpgradeAO_Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_AddNewLine_Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_AddNewLine_Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_UpgradeAO_Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_UpgradeAO_Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_CardTypeVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_CardTypeVerify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SPRCOM_92078.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Data/NewLine_DeviceOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>saveScreenshotPNG_Allure</find>
+      <find>Monthly_upgrade</find>
+      <find>Monthly</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Monthly_upgrade</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/allure-results</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/PreSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/MakePayment_TestSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/MakePayment_Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/SPRCOM_92078_DataProvider_CardNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/MainBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_MakePayment_Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_MakePayment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_MakePayment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_ApplePay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_92088_iOS_LoginAO_Sales.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_92088_iOS_LoginAO_Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107100_iOS_LoginAO_Sales.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/SPRCOM_107202_PlanOptions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Listeners_Tests/Listeners_Example.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_AddNewLine_Cart_MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_Checkout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HTML_report/ReportWebPlugin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/SPRCOM_106308_CardNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_MakePayment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_MakePayment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_Checkout_Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/SPRCOM_107202_DeviceOptions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107100_iOS_LoginAO_Login.java" />
+        <option value="$PROJECT_DIR$/SPRCOM_92088_test.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/SPRCOM_107202_DeviceOptions_Upgrade.java" />
+        <option value="$PROJECT_DIR$/SPRCOM_92088.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_CardTypeVerify.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_AddNewLine_Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_UpgradeAO_Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_AddNewLine_Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_UpgradeAO_Cart.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/SPRCOM_92078.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Login.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ios_test_samples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ios_test_samples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ios_test_samples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1609" />
+    <option name="y" value="32" />
+    <option name="width" value="1540" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Jenkins_ex1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_ex1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins_ex1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_ex1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins_ex1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_ex1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins_ex1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_ex1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins_ex1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_ex1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins_ex1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_ex1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Listeners_Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins_ex1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_ex1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SPRCOM_92078_iOS_Payment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins_ex1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_ex1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SPRCOM_92088_iOS_Sales" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.46781608" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Data" />
+      <recent name="SPRCOM_92088_iOS_Sales" />
+      <recent name="SPRCOM_92078_iOS_Payment" />
+      <recent name="iOS_Tests" />
+      <recent name="Listeners_Tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/iOS_Tests" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ios_test_samples" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2419738c-ece9-4cf1-adce-dca128d6c112" name="Default Changelist" comment="" />
+      <created>1562597738630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562597738630</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="_Users_mj621194_Documents_Maven_Projects_ios_test_samples_testng_xml - 2019.07.24 at 14h 08m 34s.xml">
+      <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mj621194_Documents_Maven_Projects_ios_test_samples_testng_xml - 2019.07.24 at 14h 11m 50s.xml">
+      <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mj621194_Documents_Maven_Projects_ios_test_samples_testng_xml - 2019.07.24 at 14h 16m 43s.xml">
+      <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mj621194_Documents_Maven_Projects_ios_test_samples_testng_xml - 2019.07.24 at 14h 19m 00s.xml">
+      <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mj621194_Documents_Maven_Projects_ios_test_samples_testng_xml - 2019.07.24 at 14h 48m 06s.xml">
+      <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mj621194_Documents_Maven_Projects_ios_test_samples_testng_xml - 2019.08.05 at 09h 56m 58s.xml">
+      <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mj621194_Documents_Maven_Projects_ios_test_samples_testng_xml - 2019.08.05 at 09h 58m 54s.xml">
+      <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mj621194_Documents_Maven_Projects_ios_test_samples_testng_xml - 2019.09.03 at 09h 28m 30s.xml">
+      <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mj621194_Documents_Maven_Projects_ios_test_samples_testng_xml - 2019.09.03 at 09h 31m 37s.xml">
+      <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mj621194_Documents_Maven_Projects_ios_test_samples_testng_xml - 2019.09.03 at 09h 32m 15s.xml">
+      <configuration name="/Users/mj621194/Documents/Maven_Projects/ios_test_samples/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1609" y="32" width="1540" height="970" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33845127" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3382688" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32908458" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49933687" weight="0.25860155" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5006631" side_tool="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32908458" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32908458" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.110146865" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123 test" />
+    <option name="LAST_COMMIT_MESSAGE" value="123 test" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/allure-results/362d03a3-a3d4-4b46-b149-80932021cd69-result.json" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+    <entry file="file://$PROJECT_DIR$/allure-report/index.html" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/old/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/SprintBeta.app" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/PreSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/MakePayment_TestSample.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/MakePayment_Tests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/SPRCOM_92078_DataProvider_CardNumbers.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_MakePayment_Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_92088_iOS_LoginAO_Login.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_92088_iOS_LoginAO_Sales.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107100_iOS_LoginAO_Sales.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/SPRCOM_107202_PlanOptions.java" />
+    <entry file="file://$PROJECT_DIR$/video.mp4" />
+    <entry file="file://$PROJECT_DIR$/allure-results/f31c8ecc-e791-4759-b1ee-44b90af06f3b-attachment" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Listeners_Tests/Listeners_Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_AddCart_MainPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_Checkout.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_AddNewLine_Cart_MainPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/HTML_report/ReportWebPlugin.java" />
+    <entry file="file://$PROJECT_DIR$/SPRCOM_92088_test.xml" />
+    <entry file="file://$PROJECT_DIR$/SPRCOM_92088.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding>
+            <element signature="n#test#0;n#suite#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/SPRCOM_107202_DeviceOptions.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Payment_CardOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/SPRCOM_107202_DeviceOptions_Upgrade.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/SPRCOM_106308_CardNumbers.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/iOS_NonLogin_MakePayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/MainBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+          <folding>
+            <element signature="method#unzip#0;class#MainBase#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_MakePayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_ApplePay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_CardTypeVerify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_MakePayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_AddNewLine_Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_UpgradeAO_Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_UpgradeAO_Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_AddNewLine_Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_Checkout_Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3405">
+          <caret line="227" column="30" selection-start-line="227" selection-start-column="30" selection-end-line="227" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107100_iOS_LoginAO_Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="74" lean-forward="true" selection-start-line="93" selection-start-column="74" selection-end-line="93" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_MakePayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3885">
+          <caret line="259" column="23" selection-start-line="259" selection-start-column="23" selection-end-line="259" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="96" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_MakePayment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1441">
+          <caret line="479" column="74" selection-start-line="479" selection-start-column="74" selection-end-line="479" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPRCOM_92078.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/NewLine_DeviceOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ios_test_samples</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.46781608" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib:3.2.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.46781608" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
