@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 185.211 s <<< FAILURE! - in TestSuite
+SPRCOM_107202(SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main)  Time elapsed: 22.205 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main.SPRCOM_107202_Step3(SPRCOM_107200_LoginAO_AddNewLine_Main.java:59)
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main.SPRCOM_107202(SPRCOM_107200_LoginAO_AddNewLine_Main.java:27)
+
+SPRCOM_107204(SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart)  Time elapsed: 21.916 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart.SPRCOM_107204_Step2(SPRCOM_107200_LoginAO_Checkout_Cart.java:51)
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart.SPRCOM_107204(SPRCOM_107200_LoginAO_Checkout_Cart.java:23)
+
+SPRCOM_107206(SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main)  Time elapsed: 10.829 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main.SPRCOM_107206_Step_Extra(SPRCOM_107200_LoginAO_UpgradeLine_Main.java:51)
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main.SPRCOM_107206(SPRCOM_107200_LoginAO_UpgradeLine_Main.java:25)
+

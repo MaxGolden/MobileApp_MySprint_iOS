@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SPRCOM_92088 My Sprint App iOS - Sales]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="portNum" value="4713"/>
+  <parameter name="versionNO" value="12.2"/>
+  <parameter name="appS3Url" value="https://sprintappfiles.s3.amazonaws.com/SprintBeta.zip"/>
+  <parameter name="deviceName" value="iPhone XR"/>
+  <test thread-count="5" name="SPRCOM_107100_iOS_LoginAO_Sales(failed)" verbose="0">
+    <classes>
+      <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="SPRCOM_107206" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main -->
+      <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="SPRCOM_107202" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main -->
+      <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="SPRCOM_107204"/>
+        </methods>
+      </class> <!-- SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart -->
+    </classes>
+  </test> <!-- SPRCOM_107100_iOS_LoginAO_Sales(failed) -->
+</suite> <!-- Failed suite [SPRCOM_92088 My Sprint App iOS - Sales] -->

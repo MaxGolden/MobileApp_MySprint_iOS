@@ -1,0 +1,151 @@
+{
+    "shopBrwsDvcsLbl": "Browse devices",
+    "carousel": [
+        {
+            "key": "imagekey1",
+            "image": "/content/dam/app/sprint/uploaded_images/Promo1@3x.png",
+            "title": "Image1",
+            "actionType": "external",
+            "actionUri": "/content/experience-fragments/sprint"
+        },
+        {
+            "key": "imagekey2",
+            "image": "/content/dam/app/sprint/uploaded_images/Promo2@3x.png",
+            "title": "Image2",
+            "actionType": "webview",
+            "actionUri": "/content/experience-fragments/sprint"
+        },
+        {
+            "key": "image3",
+            "image": "/content/dam/app/sprint/uploaded_images/Promo3@3x.png",
+            "title": "Image3",
+            "actionType": "webview",
+            "actionUri": "https://www.sprint.com"
+        }
+    ],
+    "sorting": [
+        {
+            "key": "featured",
+            "value": "Featured"
+        },
+        {
+            "key": "lowestmonthlypayment",
+            "value": "Lowest monthly payment"
+        },
+        {
+            "key": "lowestupfrontcost",
+            "value": "Lowest upfront cost"
+        },
+        {
+            "key": "highestrating",
+            "value": "Highest rating"
+        }
+    ],
+    "items": [
+        {
+            "title": "Phones",
+            "key": "PHONES",
+            "allowUpgrade": true,
+            "deviceTypes": [
+                {
+                    "key": "FTRPH",
+                    "allowUpgrade": false
+                },
+                {
+                    "key": "SMRTPH",
+                    "allowUpgrade": false
+                }
+            ],
+            "filters": [
+                {
+                    "key": "Apple",
+                    "image": "/content/dam/app/sprint/uploaded_images/Apple_logo@3x.png",
+                    "title": "Apple"
+                },
+                {
+                    "key": "Samsung",
+                    "image": "/content/dam/app/sprint/uploaded_images/samsung_logo@3x.png",
+                    "title": "Samsung"
+                },
+                {
+                    "key": "LG",
+                    "image": "/content/dam/app/sprint/uploaded_images/LG_logo@3x.png",
+                    "title": "LG"
+                }
+            ]
+        },
+        {
+            "title": "Tablets",
+            "key": "TABLETS",
+            "allowUpgrade": true,
+            "deviceTypes": [
+                {
+                    "key": "TABLET",
+                    "allowUpgrade": true
+                }
+            ],
+            "filters": [
+                {
+                    "key": "Apple",
+                    "image": "/content/dam/app/sprint/uploaded_images/Apple_logo@3x.png",
+                    "title": "Apple"
+                },
+                {
+                    "key": "Samsung",
+                    "image": "/content/dam/app/sprint/uploaded_images/samsung_logo@3x.png",
+                    "title": "Samsung"
+                }
+            ]
+        },
+        {
+            "title": "Watches",
+            "key": "WATCHES",
+            "allowUpgrade": true,
+            "deviceTypes": [
+                {
+                    "key": "CDNVOI",
+                    "allowUpgrade": false
+                },
+                {
+                    "key": "CDNVOI",
+                    "allowUpgrade": true
+                }
+            ],
+            "filters": [
+                {
+                    "key": "Apple",
+                    "image": "/content/dam/app/sprint/uploaded_images/Apple_logo@3x.png",
+                    "title": "Apple"
+                },
+                {
+                    "key": "Samsung",
+                    "image": "/content/dam/app/sprint/uploaded_images/samsung_logo@3x.png",
+                    "title": "Samsung"
+                }
+            ]
+        },
+        {
+            "title": "Others",
+            "key": "HOTSPOTS",
+            "allowUpgrade": false,
+            "deviceTypes": [
+                {
+                    "key": "MBB",
+                    "allowUpgrade": true
+                }
+            ],
+            "filters": [
+                {
+                    "key": "Apple",
+                    "image": "/content/dam/app/sprint/uploaded_images/Apple_logo@3x.png",
+                    "title": "Apple"
+                },
+                {
+                    "key": "Samsung",
+                    "image": "/content/dam/app/sprint/uploaded_images/samsung_logo@3x.png",
+                    "title": "Samsung"
+                }
+            ]
+        }
+    ]
+}

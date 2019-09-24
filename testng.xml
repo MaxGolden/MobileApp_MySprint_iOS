@@ -4,7 +4,7 @@
 
     <suite-files>
         <suite-file path="SPRCOM_92078.xml" />
-<!--        <suite-file path="SPRCOM_92088.xml" />-->
+        <suite-file path="SPRCOM_92088.xml" />
     </suite-files>
 
 </suite>

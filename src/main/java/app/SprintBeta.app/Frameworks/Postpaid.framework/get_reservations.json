@@ -1,0 +1,20 @@
+{
+    "reservations": [
+        {
+            "uid": 11111111111,
+            "subscriberId": "95525861011",
+            "itemId": "190198778567",
+            "deviceType": "PHONES",
+            "flow": "GROSS_ADD",
+            "status": "Confirmed"
+        },
+        {
+            "uid": 22222222222,
+            "subscriberId": "1232434353",
+            "itemId": "190198778567",
+            "deviceType": "PHONES",
+            "flow": "UPGRADE",
+            "status": "Reserved"
+        }
+    ]
+}

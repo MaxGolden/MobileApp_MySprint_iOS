@@ -2,40 +2,39 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SPRCOM-92078 My Sprint App iOS - Payment">
 
-    <test verbose="2" name="Driver_Launch - iOS iPhone8 BETA6.15">
-        <groups>
-            <run>
-                <include name="MainBase" />
-            </run>
-        </groups>
+    <parameter name="appS3Url" value="https://sprintappfiles.s3.amazonaws.com/SprintBeta.zip"/>
+    <parameter name="deviceName" value="iPhone XR"/>
+    <parameter name="versionNO" value="12.2"/>
+    <parameter name="portNum" value="4713"/>
+
+    <test verbose="2" name="Driver_Launch - iOS iPhone XR BETA6.18">
         <classes>
-            <class name="iOS_Tests.MainBase" />
+            <class name="iOS_Base.MainBase" />
+            <class name="iOS_Base.DefaultPages" />
         </classes>
     </test>
 
-    <test verbose="2" name="SPRCOM_106300_iOS_NonLogin_Payment" enabled="false">
-        <groups>
-            <run>
-                <include name="MakePayment" />
-            </run>
-        </groups>
-
+    <test verbose="2" name="SPRCOM_106300_iOS_NonLogin_Payment">
         <classes>
-            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_MakePayment" />
-            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_CardTypeVerify" />
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_Payment_Basis" />
             <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_ApplePay" />
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_CardTypeVerify" />
+        </classes>
+    </test>
+
+    <test verbose="2" name="SPRCOM_106900_iOS_Login_AO">
+        <classes>
+            <class name="SPRCOM_92080_iOS_LoginAO.SPRCOM_106900_iOS_ENV_MDN" />
+            <class name="SPRCOM_92080_iOS_LoginAO.SPRCOM_106900_iOS_AO_Login" />
         </classes>
     </test>
 
     <test verbose="2" name="SPRCOM_106800_iOS_LoginAO_Payment">
-        <groups>
-            <run>
-                <include name="AccountOwner" />
-            </run>
-        </groups>
         <classes>
-            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106800_iOS_LoginAO_Login" />
-            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106800_iOS_LoginAO_MakePayment" />
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106800_iOS_LoginAO_Payment_Basis" />
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106800_iOS_LoginAO_ApplePay" />
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106800_iOS_LoginAO_AddCard" />
+            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106800_iOS_LoginAO_AddChecking" />
         </classes>
     </test>
 

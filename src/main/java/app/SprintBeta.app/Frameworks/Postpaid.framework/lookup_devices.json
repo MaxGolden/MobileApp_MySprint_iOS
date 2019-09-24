@@ -1,0 +1,837 @@
+{
+    "devices": [
+        {
+            "groupId": "39000005",
+            "defaultProductId": "dvc11450017prd",
+            "products": [
+                {
+                    "productId": "dvc11450017prd",
+                    "defaultItemId": "190198778567",
+                    "items": [
+                        {
+                            "itemId": "190198778567",
+                            "deviceSKU": "121400398",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 749.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 749.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        },
+                        {
+                            "itemId": "190198778734",
+                            "deviceSKU": "121400398",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 749.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 749.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                },{
+                    "productId": "dvc11450015prd",
+                    "defaultItemId": "190198778567",
+                    "items": [
+                        {
+                            "itemId": "190198778567",
+                            "deviceSKU": "121400398",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 749.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 749.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        },
+                        {
+                            "itemId": "190198778734",
+                            "deviceSKU": "121400398",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 749.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 749.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                },{
+                    "productId": "dvc11450016prd",
+                    "defaultItemId": "190198778567",
+                    "items": [
+                        {
+                            "itemId": "190198778567",
+                            "deviceSKU": "121400398",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 749.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 749.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        },
+                        {
+                            "itemId": "190198778734",
+                            "deviceSKU": "121400398",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 749.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 749.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "39000002",
+            "defaultProductId": "dvc11450002prd",
+            "products": [
+                {
+                    "productId": "dvc11450002prd",
+                    "defaultItemId": "190198786203",
+                    "items": [
+                        {
+                            "itemId": "190198786203",
+                            "deviceSKU": "121000241",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 1099.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 1099.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "36500003",
+            "defaultProductId": "dvc10930002prd",
+            "products": [
+                {
+                    "productId": "dvc10930002prd",
+                    "defaultItemId": "190198456274",
+                    "items": [
+                        {
+                            "itemId": "190198456274",
+                            "deviceSKU": "114100332",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 699.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 699.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "36500002",
+            "defaultProductId": "dvc10930001prd",
+            "products": [
+                {
+                    "productId": "dvc10930001prd",
+                    "defaultItemId": "190198452016",
+                    "items": [
+                        {
+                            "itemId": "190198452016",
+                            "deviceSKU": "114100260",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 599.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 599.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "39000001",
+            "defaultProductId": "dvc11450003prd",
+            "products": [
+                {
+                    "productId": "dvc11450003prd",
+                    "defaultItemId": "190198790231",
+                    "items": [
+                        {
+                            "itemId": "190198790231",
+                            "deviceSKU": "121000205",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 999.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 999.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "36500004",
+            "defaultProductId": "dvc10930006prd",
+            "products": [
+                {
+                    "productId": "dvc10930006prd",
+                    "defaultItemId": "190198459589",
+                    "items": [
+                        {
+                            "itemId": "190198459589",
+                            "deviceSKU": "114100356",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 899.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 899.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "33800002",
+            "defaultProductId": "dvc10400005prd",
+            "products": [
+                {
+                    "productId": "dvc10400005prd",
+                    "defaultItemId": "190198157430",
+                    "items": [
+                        {
+                            "itemId": "190198157430",
+                            "deviceSKU": "106800003",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 569.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 569.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "33800001",
+            "defaultProductId": "dvc10400002prd",
+            "products": [
+                {
+                    "productId": "dvc10400002prd",
+                    "defaultItemId": "190198072214",
+                    "items": [
+                        {
+                            "itemId": "190198072214",
+                            "deviceSKU": "106800008",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 449.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 449.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "37000002",
+            "defaultProductId": "dvc11020024prd",
+            "products": [
+                {
+                    "productId": "dvc11020024prd",
+                    "defaultItemId": "RCCI7P32GBLK",
+                    "items": [
+                        {
+                            "itemId": "RCCI7P32GBLK",
+                            "deviceSKU": "115200117",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 240.0,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 240.0,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "36900006",
+            "defaultProductId": "dvc10980013prd",
+            "products": [
+                {
+                    "productId": "dvc10980013prd",
+                    "defaultItemId": "RCCIP732GROS",
+                    "items": [
+                        {
+                            "itemId": "RCCIP732GROS",
+                            "deviceSKU": "114800085",
+                            "inventoryStatus": "OUT_OF_STOCK",
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 224.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 224.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "39500004",
+            "defaultProductId": "dvc11550028prd",
+            "products": [
+                {
+                    "productId": "dvc11550028prd",
+                    "defaultItemId": "RCCIP8P64GRY",
+                    "items": [
+                        {
+                            "itemId": "RCCIP8P64GRY",
+                            "deviceSKU": "114100337",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 449.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 449.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "RIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "41300004",
+            "defaultProductId": "dvc11900015prd",
+            "products": [
+                {
+                    "productId": "dvc11900015prd",
+                    "defaultItemId": "RCCIPHX64SIL",
+                    "items": [
+                        {
+                            "itemId": "RCCIPHX64SIL",
+                            "deviceSKU": "114100361",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 549.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 549.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "RIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "39500005",
+            "defaultProductId": "dvc11550026prd",
+            "products": [
+                {
+                    "productId": "dvc11550026prd",
+                    "defaultItemId": "RCCIPH864GLD",
+                    "items": [
+                        {
+                            "itemId": "RCCIPH864GLD",
+                            "deviceSKU": "114100241",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 349.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 349.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "RIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "28200003",
+            "defaultProductId": "dvc9580005prd",
+            "products": [
+                {
+                    "productId": "dvc9580005prd",
+                    "defaultItemId": "888462500838",
+                    "items": [
+                        {
+                            "itemId": "888462500838",
+                            "deviceSKU": "96300192",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 549.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 549.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groupId": "28200005",
+            "defaultProductId": "dvc9580021prd",
+            "products": [
+                {
+                    "productId": "dvc9580021prd",
+                    "defaultItemId": "888462501866",
+                    "items": [
+                        {
+                            "itemId": "888462501866",
+                            "deviceSKU": "96300547",
+                            "inventoryStatus": null,
+                            "purchaseMechanism": null,
+                            "contractPricings": [
+                                {
+                                    "contractInfo": {
+                                        "contractId": "0-yr",
+                                        "purchaseMethod": "FULL_SRP",
+                                        "paymentDuration": 0,
+                                        "tradeInRequired": false,
+                                        "creditCheckNeeded": true,
+                                        "offerGroupCode": null,
+                                        "promoCode": null,
+                                        "flex": false
+                                    },
+                                    "nonMACDiscounts": null,
+                                    "macDiscounts": null,
+                                    "todaysTotal": 649.99,
+                                    "baseMonthlyPayment": 0.0,
+                                    "baseTodaysTotal": 649.99,
+                                    "finalMonthlyPayment": 0.0,
+                                    "portInDiscount": false
+                                }
+                            ],
+                            "deviceCharacteristics": null,
+                            "deliveryMethods": [
+                                "PIS",
+                                "STH"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

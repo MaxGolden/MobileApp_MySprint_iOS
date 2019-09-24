@@ -6,7 +6,7 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		plnCNqPEQJfXiaqavbqkj3ydZ0c=
+		OLLvhOGHGwJKAL/hmJbE6CFFTS0=
 		</data>
 		<key>UpgradeEligibilityInfo.json</key>
 		<data>
@@ -27,6 +27,14 @@
 		<key>futurePayment.json</key>
 		<data>
 		ehjEpJoDWapptyz4u8CiAl7uCCM=
+		</data>
+		<key>get_reservations.json</key>
+		<data>
+		NioAGDSimel7H0l8kuhM7jwwZ2Q=
+		</data>
+		<key>lookup_devices.json</key>
+		<data>
+		KUnq+NfQfccNreWCW2F0QffWJkM=
 		</data>
 		<key>mandatoryServices.json</key>
 		<data>
@@ -56,9 +64,17 @@
 		<data>
 		XV3FQs1dduflX7mBH9RuoS7O6rQ=
 		</data>
+		<key>reserve_device_response.json</key>
+		<data>
+		giP2A0T6MZK5Ww0ADULNdnoMjb4=
+		</data>
 		<key>servicesContent.json</key>
 		<data>
 		syoEUeIcY++3nAYFaRUKVGebz7I=
+		</data>
+		<key>shop_tab_content.json</key>
+		<data>
+		ThxRT6b8NNkJ8Qen9y4WK4xecQw=
 		</data>
 		<key>validatePayment.json</key>
 		<data>
@@ -100,6 +116,20 @@
 			<key>hash2</key>
 			<data>
 			iX6l5dAC2jPTVY1kj+wSeHzMN8Q/z7GlTNffgvNLeBA=
+			</data>
+		</dict>
+		<key>get_reservations.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MUwYKzyRJVMYvSP3SOZoKQaWNFzR2rsJVWgCic3YZHs=
+			</data>
+		</dict>
+		<key>lookup_devices.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JYaU16AP58LhVT6e8uKWcTwdPXqHs1eYUxT5pCRJU5I=
 			</data>
 		</dict>
 		<key>mandatoryServices.json</key>
@@ -151,11 +181,25 @@
 			QOZJobJxtF0qSLyndFwXIoKNVlzv8Qo3AsZM176hHrw=
 			</data>
 		</dict>
+		<key>reserve_device_response.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M0R6HAFCiBOYTw/yz3UCIFKRYC4T//WrWvXzlSunrFU=
+			</data>
+		</dict>
 		<key>servicesContent.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			f5dPbx+NEJfGsi249NbtVawX7/N+2B7v6Ls2Jxx8+Lw=
+			</data>
+		</dict>
+		<key>shop_tab_content.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Zsutypyqj2CjS35j/xW4/irp8FMcYKtEuSICpZEKeRI=
 			</data>
 		</dict>
 		<key>validatePayment.json</key>

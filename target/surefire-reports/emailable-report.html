@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">My Sprint App iOS</th></tr>
+<tr><th colspan="7">SPRCOM_92088 My Sprint App iOS - Sales</th></tr>
+<tr><td><a href="#t0">Driver_Launch - iOS iPhone XR BETA6.18</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">48,449</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">SPRCOM_106900_iOS_Login_AO</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">24,487</td><td></td><td></td></tr>
+<tr><td><a href="#t2">SPRCOM_107100_iOS_LoginAO_Sales</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">57,748</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num attn">3</th><th class="num">130,684</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">My Sprint App iOS</th></tr></tbody><tbody><tr><th colspan="4">SPRCOM_92088 My Sprint App iOS - Sales</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">SPRCOM_106900_iOS_Login_AO &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SPRCOM_92080_iOS_LoginAO.SPRCOM_106900_iOS_AO_Login</td><td><a href="#m0">SPRCOM_106904</a></td><td rowspan="1">1569361316843</td><td rowspan="1">11162</td></tr><tr class="passedodd"><td rowspan="1">SPRCOM_92080_iOS_LoginAO.SPRCOM_106900_iOS_ENV_MDN</td><td><a href="#m1">SPRCOM_106902</a></td><td rowspan="1">1569361304119</td><td rowspan="1">11855</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">SPRCOM_107100_iOS_LoginAO_Sales &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main</td><td><a href="#m2">SPRCOM_107202</a></td><td rowspan="1">1569361328593</td><td rowspan="1">22398</td></tr><tr class="failedodd"><td rowspan="1">SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart</td><td><a href="#m3">SPRCOM_107204</a></td><td rowspan="1">1569361351723</td><td rowspan="1">22263</td></tr><tr class="failedeven"><td rowspan="1">SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main</td><td><a href="#m4">SPRCOM_107206</a></td><td rowspan="1">1569361374584</td><td rowspan="1">11022</td></tr></tbody>
+</table>
+<h2>Driver_Launch - iOS iPhone XR BETA6.18</h2><h2>SPRCOM_106900_iOS_Login_AO</h2><h3 id="m0">SPRCOM_92080_iOS_LoginAO.SPRCOM_106900_iOS_AO_Login#SPRCOM_106904</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>st2</td><td>3369549079</td><td>TWREG-59003</td><td>T3stM3.P1s</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">SPRCOM_92080_iOS_LoginAO.SPRCOM_106900_iOS_ENV_MDN#SPRCOM_106902</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>st2</td><td>3369549079</td><td>TWREG-59003</td><td>T3stM3.P1s</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SPRCOM_107100_iOS_LoginAO_Sales</h2><h3 id="m2">SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main#SPRCOM_107202</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Phones</td><td>Apple</td><td>Apple iPhone XR</td><td>Lease</td><td>Unlimited</td><td>Add protection</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at Util.iOS_Driver_Methods.assertFail(iOS_Driver_Methods.java:366)
+	at Util.iOS_Driver_Methods.findByAccessibilityID_Click(iOS_Driver_Methods.java:55)
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main.SPRCOM_107202_Step3(SPRCOM_107200_LoginAO_AddNewLine_Main.java:59)
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main.SPRCOM_107202(SPRCOM_107200_LoginAO_AddNewLine_Main.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart#SPRCOM_107204</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at Util.iOS_Driver_Methods.assertFail(iOS_Driver_Methods.java:370)
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart.SPRCOM_107204_Step2(SPRCOM_107200_LoginAO_Checkout_Cart.java:51)
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart.SPRCOM_107204(SPRCOM_107200_LoginAO_Checkout_Cart.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main#SPRCOM_107206</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>Phones</td><td>Apple</td><td>Apple iPhone XR</td><td>Lease</td><td>Unlimited Savings Plan</td><td>Add protection</td><td>Buy this phone</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at Util.iOS_Driver_Methods.assertFail(iOS_Driver_Methods.java:366)
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main.SPRCOM_107206_Step_Extra(SPRCOM_107200_LoginAO_UpgradeLine_Main.java:51)
+	at SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main.SPRCOM_107206(SPRCOM_107200_LoginAO_UpgradeLine_Main.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

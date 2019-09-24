@@ -2,30 +2,32 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SPRCOM_92088 My Sprint App iOS - Sales">
 
-    <test verbose="2" name="Driver_Launch - iOS iPhone8 BETA6.15">
-        <groups>
-            <run>
-                <include name="MainBase" />
-            </run>
-        </groups>
+    <parameter name="appS3Url" value="https://sprintappfiles.s3.amazonaws.com/SprintBeta.zip"/>
+    <parameter name="deviceName" value="iPhone XR"/>
+    <parameter name="versionNO" value="12.2"/>
+    <parameter name="portNum" value="4713"/>
+
+    <test verbose="2" name="Driver_Launch - iOS iPhone XR BETA6.18">
         <classes>
-            <class name="iOS_Tests.MainBase" />
+            <class name="iOS_Base.MainBase" />
+            <class name="iOS_Base.DefaultPages" />
+        </classes>
+    </test>
+
+    <test verbose="2" name="SPRCOM_106900_iOS_Login_AO">
+        <classes>
+            <class name="SPRCOM_92080_iOS_LoginAO.SPRCOM_106900_iOS_ENV_MDN" />
+            <class name="SPRCOM_92080_iOS_LoginAO.SPRCOM_106900_iOS_AO_Login" />
         </classes>
     </test>
 
     <test verbose="2" name="SPRCOM_107100_iOS_LoginAO_Sales">
-        <groups>
-            <run>
-                <include name="AccountOwner" />
-            </run>
-        </groups>
         <classes>
-            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107100_iOS_LoginAO_Login" />
-            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_iOS_LoginAO_Sales_MainPage_AddNewLine_Cart" />
-            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_iOS_LoginAO_Sales_Checkout_Cart" />
-            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_iOS_LoginAO_Sales_MainPage_UpgradeAO_Cart" />
-            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_AddNewLine_Cart" />
-            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_UpgradeAO_Cart" />
+            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main" />
+            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart" />
+            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main" />
+<!--            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Shop" />-->
+<!--            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Shop" />-->
         </classes>
     </test>
 

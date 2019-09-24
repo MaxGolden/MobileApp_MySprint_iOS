@@ -1,25 +1,20 @@
 package SPRCOM_92078_iOS_Payment;
 
-import iOS_Tests.MainBase;
-import io.appium.java_client.ios.IOSElement;
+import iOS_Base.MainBase;
 import io.qameta.allure.*;
-import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.concurrent.TimeUnit;
+import static Listeners_iOS.listeners_iOS.saveTextLog_Allure;
+import static Listeners_iOS.listeners_iOS.saveTextLog_Allure_er;
+import static Util.iOS_Driver_Methods.*;
 
-import static Listeners_Tests.Listeners_Example.saveTextLog_Allure;
-import static Listeners_Tests.Listeners_Example.saveTextLog_Allure_er;
-
-@Listeners(Listeners_Tests.Listeners_Example.class)
+@Listeners(Listeners_iOS.listeners_iOS.class)
 @Epic("SPRCOM-92078 My Sprint App iOS - Payment")
 @Feature("SPRCOM-106300 My Sprint App iOS - NonLogin Payment")
 public class SPRCOM_106300_iOS_NonLogin_CardTypeVerify extends MainBase {
 
-    @Test(groups = {"NonLogin", "MakePayment"}, priority = 2, dataProvider = "CardNumber",
+    @Test(groups = {"NonLogin", "MakePayment"}, priority = 3, dataProvider = "CardNumber",
             dataProviderClass = Data.Payment_CardOptions.class)
     @Description("Test the function of payment making with different types of card (Card Number Support)")
     @Severity(SeverityLevel.TRIVIAL)
@@ -27,138 +22,134 @@ public class SPRCOM_106300_iOS_NonLogin_CardTypeVerify extends MainBase {
     public void SPRCOM_106304(String cardNum, String cardType, String cardCountry)
     {
         SPRCOM_106304_Step1();
-        SPRCOM_106304_Step2(cardNum, cardType);
-        SPRCOM_106304_Step3(cardNum, cardType, cardCountry);
-        SPRCOM_106304_Step4();
-        SPRCOM_106304_Step5(cardNum, cardType, cardCountry);
+        SPRCOM_106304_Step2();
+
+        if(findByID_Exist(2, "Continue")) {
+            findByID_Click(2, "Continue");
+        }
+
+        String Last4digits = cardNum.substring(cardNum.length() - 4);
+        if(findByAccessibilityID_Exist(2, Last4digits)) {
+            findByAccessibilityID_Click(2, Last4digits);
+            saveTextLog_Allure("Card exist - skip step3");
+            SPRCOM_106304_Step4();
+            SPRCOM_106304_Step5();
+            SPRCOM_106304_Step6();
+            SPRCOM_106304_Step7();
+            SPRCOM_106304_Step8();
+        } else {
+            findByAccessibilityID_Click(5, "Add payment method");
+            SPRCOM_106304_Step_extra();
+            SPRCOM_106304_Step3(cardNum, cardType);
+            SPRCOM_106304_Step4();
+            SPRCOM_106304_Step5();
+            SPRCOM_106304_Step6();
+            SPRCOM_106304_Step7();
+            SPRCOM_106304_Step8();
+        }
     }
 
 
-    @Step("1. Click Button 'Make a payment' and select 'Pay with Debit/Credit Card'")
+    @Step("1. Click ‘Make a payment’ Button")
     private void SPRCOM_106304_Step1()
     {
         saveTextLog_Allure_er("Payment page is displayed");
-        iosDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        List<IOSElement> pay_m =iosDriver.findElementsById("Make a payment");
-        try {
-            if(pay_m.size() > 0) {
-                iosDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-                iosDriver.findElementById("Make a payment").click();
-                System.out.println("INFO: Click Button'Make a payment'");
-            } else {
-                System.out.println("FAIL: connection failed - No 'Make a payment' button showed");
-                saveTextLog_Allure("FAIL: connection failed - No 'Make a payment' button showed");
-                Assert.fail();
-            }
-        }catch (NoSuchElementException e) {
-            System.out.println("Error: No such element found!");
-        }
 
-        iosDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        iosDriver.findElementById("Pay with Debit/Credit Card").click();
+        if(findByID_Exist(20, "Make a payment")) {
+            findByID_Click(5, "Make a payment");
+        } else {
+            assertFail(false, 0, "Unknown Error - Make a payment not found");
+        }
     }
 
-    @Step("2. Fill the info of card with different card number from data provider")
-    private void SPRCOM_106304_Step2(String cardNum, String cardType)
+    @Step("2. Change the amount to $1.00 and tap 'Payment method' and tap add payment method")
+    private void SPRCOM_106304_Step2()
+    {
+        saveTextLog_Allure_er("Add payment method page is displayed");
+        findByClassType_Clear(5, "XCUIElementTypeTextField", 0);
+        findByClassType_SendKey(5, "XCUIElementTypeTextField", 0, "100");
+        findByID_Click(5, "Next");
+        findByAccessibilityID_Click(5, "Payment method");
+    }
+
+    @Step("Extra. Tap 'OK' if camera access shows up")
+    private void SPRCOM_106304_Step_extra()
+    {
+        saveTextLog_Allure_er("Camera access allowed");
+        if(findByID_Exist(5, "OK")) {
+            findByID_Click(5, "OK");
+        }
+    }
+
+    @Step("3. Fill the info of card with different card number from data provider")
+    private void SPRCOM_106304_Step3(String cardNum, String cardType)
     {
         saveTextLog_Allure_er("Card info is entered");
-        iosDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        iosDriver.findElementById("$0.00").sendKeys("100");
-        iosDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        iosDriver.findElementById("Name on card").sendKeys("Max");
-        iosDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        iosDriver.findElementById("Card number").sendKeys(cardNum);
-        iosDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        iosDriver.findElementById("Expiration date").click();
-        iosDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        iosDriver.findElementById("July").sendKeys("December");
-        iosDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        iosDriver.findElementById("2019").sendKeys("2021");
-        iosDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        iosDriver.findElementById("Done").click();
-        iosDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        iosDriver.findElementById("ZIP").sendKeys("66223");
+        findByID_SendKeys(5, "Name on card", "Max");
+        findByID_SendKeys(5, "Card number", cardNum);
+        findByID_Click(5, "Expiration date");
+        findByID_Click(5, "Done");
+        findByID_SendKeys(5, "ZIP", "66600");
         if (cardType.equals("American Express")) {
-            iosDriver.findElementById("CVV number").sendKeys("0000");
+            findByID_SendKeys(5, "CVV number", "0000");
         } else {
-            iosDriver.findElementById("CVV number").sendKeys("000");
+            findByID_SendKeys(5, "CVV number", "000");
         }
-        iosDriver.findElementById("Done").click();
+        findByID_Click(5, "Next");
+        findByID_Click(5, "Done");
+        findByID_Click(5, "Yes");
+        if(findByAccessibilityID_Enable(5, "Save")) {
+            findByID_Click(5, "Save");
+        } else {
+            assertFail(true, 3, "Unknown errors happened");
+        }
     }
 
-    @Step("3. Check if there is error message '- Invalid card number.', and tap 'Continue'")
-    private void SPRCOM_106304_Step3(String cardNum, String cardType, String cardCountry)
-    {
-        saveTextLog_Allure_er("Bottom sheet is displayed");
-
-        iosDriver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        List<IOSElement> elements1 = iosDriver.findElementsById("- Invalid card number.");
-        try {
-            if(elements1.size() > 0) {
-                System.out.println("INFO: Invalid card number. \n " + cardType + " - " + cardNum + " - " +
-                        cardCountry + "... Failed");
-                saveTextLog_Allure("Allure: Invalid card number! - FAIL");
-                iosDriver.findElementByAccessibilityId("Cancel").click();
-                Assert.fail();
-            } else if(iosDriver.findElementByAccessibilityId("Continue").isEnabled()) {
-                iosDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-                iosDriver.findElementByAccessibilityId("Continue").click();
-
-            } else {
-                iosDriver.findElementByAccessibilityId("Cancel").click();
-                System.out.println("FAIL: Test Failed with unknown reason - Screenshot taken");
-                saveTextLog_Allure("FAIL: Test Failed with unknown reason - Screenshot taken");
-                Assert.fail();
-            }
-        }catch (NoSuchElementException e) {
-            System.out.println("INFO: Error catching: " + e.getMessage());
-        }
-
-
-    }
-
-    @Step("4. Tap 'Authorize' button and tap 'Not now'")
+    @Step("4. Tap 'Next' on the payment page if Next button is enabled")
     private void SPRCOM_106304_Step4()
     {
-        saveTextLog_Allure_er("Payment result page is displayed");
-        iosDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        iosDriver.findElementById("Authorize").click();
-
-        iosDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        List<IOSElement> error_m1 = iosDriver.findElementsById("Not Now");
-        try {
-            if(error_m1.size() > 0) {
-                iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-                iosDriver.findElementById("Not Now").click();
-            }
-            else {
-                System.out.println("FAIL: Authorization Failed with unknown reason! - Screenshot taken");
-                saveTextLog_Allure("FAIL: Authorization Failed with unknown reason! - Screenshot taken");
-
-                iosDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-                iosDriver.findElementById("OK").click();
-                iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-                iosDriver.findElementByAccessibilityId("Cancel").click();
-                Assert.fail();
-            }
-        }catch (NoSuchElementException e) {
-            System.out.println("INFO: Error catching: " + e.getMessage());
+        saveTextLog_Allure_er("Bottom payment sheet is displayed");
+        if(findByAccessibilityID_Exist(5, "Next")) {
+            findByID_Click(5, "Next");
+        } else {
+            assertFail(true, 3, "Unknown errors happened");
         }
     }
 
-    @Step("5. Tap 'OK' to finish the payment")
-    private void SPRCOM_106304_Step5(String cardNum, String cardType, String cardCountry)
+    @Step("5. Tap 'Continue' if Warning dialog is displayed")
+    private void SPRCOM_106304_Step5()
     {
-        saveTextLog_Allure_er("MainPage is displayed");
-
-        iosDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        iosDriver.findElementByAccessibilityId("OK").click();
-
-        System.out.println("INFO: The Card " + cardType + " - " + cardNum + " - " + cardCountry +
-                " Passed Test");
+        saveTextLog_Allure_er("Bottom payment sheet is displayed");
+        if(findByID_Exist(5, "Warning")) {
+            findByID_Click(5, "Continue");
+        }
     }
 
 
+    @Step("6. Tap 'Authorize' button on the bottom sheet")
+    private void SPRCOM_106304_Step6()
+    {
+        saveTextLog_Allure_er("Payment result page is displayed");
+        if(findByID_Exist(5, "Authorize")) {
+            findByID_Click(5, "Authorize");
+        } else {
+            assertFail(true, 5, "Authorize not found");
+        }
+    }
 
+    @Step("7. Tap 'Not Now' button if the rate page is displayed")
+    private void SPRCOM_106304_Step7()
+    {
+        saveTextLog_Allure_er("Payment result page is displayed");
+        if(findByID_Exist(10, "Not Now")) {
+            findByID_Click(3, "Not Now");
+        }
+    }
 
+    @Step("8. Tap 'OK' to finish the payment")
+    private void SPRCOM_106304_Step8()
+    {
+        saveTextLog_Allure_er("MainPage is displayed");
+        findByAccessibilityID_Click(5, "OK");
+    }
 }

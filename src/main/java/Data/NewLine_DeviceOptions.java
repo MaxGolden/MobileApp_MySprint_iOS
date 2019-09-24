@@ -10,6 +10,8 @@ public class NewLine_DeviceOptions {
 
                 // deviceType, brand, model, planOption, phonePlan, protectionOption
                 {"Phones", "Apple", "Apple iPhone XR", "Lease", "Unlimited", "Add protection"},
+//                {"Tablets", "Apple", "Apple iPhone XR", "Lease", "Unlimited", "Add protection"},
+//                {"Watches", "Apple", "Apple iPhone XR", "Lease", "Unlimited", "Add protection"},
 
         };
         return deviceOption;
