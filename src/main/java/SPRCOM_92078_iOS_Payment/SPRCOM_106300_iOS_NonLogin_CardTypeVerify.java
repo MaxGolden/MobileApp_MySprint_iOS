@@ -29,7 +29,7 @@ public class SPRCOM_106300_iOS_NonLogin_CardTypeVerify extends MainBase {
         }
 
         String Last4digits = cardNum.substring(cardNum.length() - 4);
-        if(findByAccessibilityID_Exist(2, Last4digits)) {
+        if(findByAccessibilityID_Exist(2, Last4digits) & !findByID_Exist(2, "(Expired)")) {
             findByAccessibilityID_Click(2, Last4digits);
             saveTextLog_Allure("Card exist - skip step3");
             SPRCOM_106304_Step4();
