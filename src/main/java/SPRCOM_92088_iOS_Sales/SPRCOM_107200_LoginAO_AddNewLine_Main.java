@@ -18,7 +18,7 @@ public class SPRCOM_107200_LoginAO_AddNewLine_Main extends MainBase {
     @Description("My Sprint app Login - Sales: Add New Line with new device, which includes 'Add a New Device' " +
             "and 'Save Money Together' on the MainPage")
     @Severity(SeverityLevel.CRITICAL)
-    @Story("SPRCOM-107202 My Sprint App iOS - MainPage: Add Device to Cart")
+    @Story("SPRCOM-107202 MainPage: Add new line to Cart")
     public void SPRCOM_107202(String deviceType, String brand, String model, String planOption, String phonePlan,
                               String protectionOption)
     {

@@ -24,9 +24,9 @@ public class SPRCOM_107200_LoginAO_AddNewLine_Shop extends MainBase {
     @Test(groups = {"AccountOwner", "Login"}, priority = 2, dataProvider = "DeviceOption",
             dataProviderClass = Data.NewLine_DeviceOptions.class)
     @Description("My Sprint app Login - Sales: Add New Line with new device, which includes 'Add a New Device' " +
-            "and 'Save Money Together' on the MainPage")
+            "and 'Save Money Together' on the ShopPage")
     @Severity(SeverityLevel.CRITICAL)
-    @Story("SPRCOM-107202 My Sprint App iOS - MainPage: Add Device to Cart")
+    @Story("SPRCOM-107202 ShopPage: Add new line to Cart")
     public void SPRCOM_107212(String deviceType, String brand, String model, String planOption, String phonePlan,
                               String protectionOption) throws Exception
     {

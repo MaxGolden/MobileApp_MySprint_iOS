@@ -17,7 +17,7 @@ public class SPRCOM_106900_iOS_ENV_MDN extends MainBase {
             dataProviderClass = Data.AccountOwner_Info.class)
     @Description("My Sprint app change Env and matched MDN")
     @Severity(SeverityLevel.CRITICAL)
-    @Story("SPRCOM-106902 Change Env and matched MDN")
+    @Story("SPRCOM-106902 Change Env and MDN")
     public void SPRCOM_106902(String Env, String MDN, String ACCusername, String ACCpassword) throws Exception
     {
         SPRCOM_106902_Step1();

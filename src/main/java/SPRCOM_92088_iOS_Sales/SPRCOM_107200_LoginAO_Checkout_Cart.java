@@ -16,7 +16,7 @@ public class SPRCOM_107200_LoginAO_Checkout_Cart extends MainBase {
     @Test(groups = {"AccountOwner", "Login"}, priority = 3)
     @Description("My Sprint App iOS - Check out Test")
     @Severity(SeverityLevel.CRITICAL)
-    @Story("SPRCOM-107204 My Sprint App iOS - Check out Test")
+    @Story("SPRCOM-107204 Cart Checkout")
     public void SPRCOM_107204() throws InterruptedException
     {
         SPRCOM_107204_Step1();

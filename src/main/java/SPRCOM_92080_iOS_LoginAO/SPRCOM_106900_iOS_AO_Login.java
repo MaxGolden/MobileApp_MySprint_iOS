@@ -17,7 +17,7 @@ public class SPRCOM_106900_iOS_AO_Login extends MainBase {
             dataProviderClass = Data.AccountOwner_Info.class)
     @Description("My Sprint app Login as account owner")
     @Severity(SeverityLevel.CRITICAL)
-    @Story("SPRCOM-106904 Test Login with type of account owner")
+    @Story("SPRCOM-106904 Login as account owner")
     public void SPRCOM_106904(String Env, String MDN, String ACCusername, String ACCpassword)
     {
         SPRCOM_106904_Step1();

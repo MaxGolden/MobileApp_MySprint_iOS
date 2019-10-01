@@ -17,7 +17,7 @@ public class SPRCOM_107200_LoginAO_UpgradeLine_Main extends MainBase {
             dataProviderClass = Data.Upgrade_DeviceOptions.class)
     @Description("My Sprint app Sales - MainPage: Get your new device - upgrade")
     @Severity(SeverityLevel.NORMAL)
-    @Story("SPRCOM-107206 My Sprint App iOS - MainPage: Get your new device - upgrade")
+    @Story("SPRCOM-107206 MainPage: Upgrade Device")
     public void SPRCOM_107206(String deviceType, String brand, String model, String planOption, String phonePlan,
                               String protectionOption, String RestValueOption) throws Exception
     {
