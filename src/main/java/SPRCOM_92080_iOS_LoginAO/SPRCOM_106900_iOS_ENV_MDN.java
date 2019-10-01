@@ -57,8 +57,12 @@ public class SPRCOM_106900_iOS_ENV_MDN extends MainBase {
     {
         saveTextLog_Allure_er("Current Page is loading and back to MDN page");
         if(!findByID_Exist(5, MDN)) {
-            findByClassType_SendKey(5, "XCUIElementTypeTextField", "3369549079");
-            findByAccessibilityID_Click(5, "save");
+            findByClassType_SendKey(5, "XCUIElementTypeTextField", MDN);
+            if(findByAccessibilityID_Exist(5, "Save")) {
+                findByAccessibilityID_Click(5, "Save");
+            } else {
+                findByAccessibilityID_Click(5, "save");
+            }
             Thread.sleep(5000);
         }
     }
@@ -84,5 +88,14 @@ public class SPRCOM_106900_iOS_ENV_MDN extends MainBase {
         }
         iosDriver.navigate().back();
         findByAccessibilityID_Click(5, "Done");
+        if(findByID_Exist(20, "Continue")) {
+            findByAccessibilityID_Click(3, "Continue");
+            if(findByID_Exist(3, "Continue")) {
+                findByAccessibilityID_Click(3, "Continue");
+            }
+            if (findByID_Exist(3, "Continue")) {
+                findByAccessibilityID_Click(3, "Continue");
+            }
+        }
     }
 }

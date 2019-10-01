@@ -28,7 +28,7 @@ public class SPRCOM_106800_iOS_LoginAO_ApplePay extends MainBase {
     }
 
     @Step("1. Click ‘Make a payment’ Button")
-    private void SPRCOM_106806_Step1() throws InterruptedException
+    private void SPRCOM_106806_Step1()
     {
         saveTextLog_Allure_er("Payment page is displayed");
         if(findByID_Exist(20, "Make a payment")) {
@@ -39,7 +39,7 @@ public class SPRCOM_106800_iOS_LoginAO_ApplePay extends MainBase {
     }
 
     @Step("2. Tap 'Amount' and enter $1")
-    private void SPRCOM_106806_Step2() throws InterruptedException
+    private void SPRCOM_106806_Step2()
     {
         saveTextLog_Allure_er("Button 'Next' is able to tap");
         findByClassType_Clear(5, "XCUIElementTypeTextField", 0);
@@ -48,7 +48,7 @@ public class SPRCOM_106800_iOS_LoginAO_ApplePay extends MainBase {
     }
 
     @Step("3. Set payment method to 'Apple Pay' and tap 'Next'")
-    private void SPRCOM_106806_Step3() throws InterruptedException
+    private void SPRCOM_106806_Step3()
     {
         saveTextLog_Allure_er("Bottom payment sheet is displayed");
         findByAccessibilityID_Click(5, "Payment method");

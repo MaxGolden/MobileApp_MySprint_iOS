@@ -14,13 +14,13 @@
         </classes>
     </test>
 
-    <test verbose="2" name="SPRCOM_106300_iOS_NonLogin_Payment">
-        <classes>
-            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_Payment_Basis" />
-            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_ApplePay" />
-            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_CardTypeVerify" />
-        </classes>
-    </test>
+<!--    <test verbose="2" name="SPRCOM_106300_iOS_NonLogin_Payment">-->
+<!--        <classes>-->
+<!--            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_Payment_Basis" />-->
+<!--            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_ApplePay" />-->
+<!--            <class name="SPRCOM_92078_iOS_Payment.SPRCOM_106300_iOS_NonLogin_CardTypeVerify" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test verbose="2" name="SPRCOM_106900_iOS_Login_AO">
         <classes>

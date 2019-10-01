@@ -4,7 +4,12 @@
     <list default="true" id="2419738c-ece9-4cf1-adce-dca128d6c112" name="Default Changelist" comment="123 test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SPRCOM_92078.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SPRCOM_92078.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddChecking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddChecking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_ApplePay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_ApplePay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_ENV_MDN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_ENV_MDN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iOS_Base/DefaultPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iOS_Base/DefaultPages.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,31 +28,84 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SPRCOM_92078.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_ENV_MDN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="19" selection-end-column="93" />
+            <state relative-caret-position="618">
+              <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/remote/AppiumCommandExecutor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="242" selection-start-line="242" selection-end-line="242" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Base/DefaultPages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="48" selection-start-line="48" selection-end-line="56" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_AO_Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Util/iOS_Driver_Methods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="177" column="23" selection-start-line="177" selection-start-column="23" selection-end-line="177" selection-end-column="23" />
               <folding>
-                <marker date="1569957622100" expanded="true" signature="614:1022" ph="..." />
+                <element signature="imports" />
+                <element signature="method#findByAccessibilityID_Click#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByAccessibilityID_Click#1;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByAccessibilityID_SendKey#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByAccessibilityID_Clear#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByAccessibilityID_GetText#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByAccessibilityID_Enable#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByAccessibilityID_Counts#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByAccessibilityID_Exist#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByClassType_Click#1;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByClassType_Clear#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByClassType_Clear#1;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByClassType_SendKey#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByClassType_SendKey#1;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByClassType_Exist#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByName_Click#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByName_SendKey#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByName_Exist#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByID_SendKeys#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByCoord_Click#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByValueXpath_Click#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByValueXpath_Exist#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByaccessibilityID_ScrollDown#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByaccessibilityID_ScrollDown#1;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByPoint_ScrollDown#0;class#iOS_Driver_Methods#0" />
+                <element signature="method#findByPoint_ScrollDown#1;class#iOS_Driver_Methods#0" />
+                <element signature="method#allure_mes#0;class#iOS_Driver_Methods#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            <state relative-caret-position="135">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -126,17 +184,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Listeners_iOS/listeners_iOS.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_MakePayment.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106800_iOS_ENV_MDN.java" />
-        <option value="$PROJECT_DIR$/src/main/java/iOS_Base/DefaultPages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java" />
         <option value="$PROJECT_DIR$/src/main/java/iOS_Base/MainBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_Payment_Amount.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_MakePayment.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Payment_Basis.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Payment.java" />
         <option value="$PROJECT_DIR$/src/main/java/Data/Payment_CheckingOptions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddChecking.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_ApplePay.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_UpgradeAO_Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_Checkout_Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_AddNewLine_Cart.java" />
@@ -153,9 +206,14 @@
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Shop.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_AO_Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_ENV_MDN.java" />
-        <option value="$PROJECT_DIR$/SPRCOM_92078.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java" />
+        <option value="$PROJECT_DIR$/SPRCOM_92078.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/iOS_Base/DefaultPages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_ApplePay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddChecking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_ENV_MDN.java" />
       </list>
     </option>
   </component>
@@ -183,8 +241,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1890" />
-    <option name="y" value="77" />
+    <option name="x" value="-1763" />
+    <option name="y" value="170" />
     <option name="width" value="1436" />
     <option name="height" value="877" />
   </component>
@@ -335,9 +393,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1905" y="152" width="1436" height="877" extended-state="0" />
+    <frame x="-1904" y="96" width="1436" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32855093" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32855093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -346,7 +404,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="4" y="34" width="796" height="801" id="Run" order="2" type="FLOATING" visible="true" weight="0.3382688" />
+      <window_info active="true" anchor="bottom" x="49" y="29" width="796" height="801" id="Run" order="2" type="FLOATING" visible="true" weight="0.3382688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,13 +472,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_MakePayment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -605,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="8" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Data/Payment_CardOptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -637,67 +681,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Base/DefaultPages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Data/Upgrade_DeviceOptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/iOS_Driver_Methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" />
-            <element signature="method#findByAccessibilityID_Click#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByAccessibilityID_Click#1;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByAccessibilityID_SendKey#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByAccessibilityID_Clear#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByAccessibilityID_GetText#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByAccessibilityID_Enable#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByAccessibilityID_Counts#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByAccessibilityID_Exist#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByClassType_Click#1;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByClassType_Clear#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByClassType_Clear#1;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByClassType_SendKey#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByClassType_SendKey#1;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByClassType_Exist#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByName_Click#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByName_SendKey#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByName_Exist#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByID_SendKeys#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByCoord_Click#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByValueXpath_Click#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByValueXpath_Exist#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByaccessibilityID_ScrollDown#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByaccessibilityID_ScrollDown#1;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByPoint_ScrollDown#0;class#iOS_Driver_Methods#0" />
-            <element signature="method#findByPoint_ScrollDown#1;class#iOS_Driver_Methods#0" />
-            <element signature="method#allure_mes#0;class#iOS_Driver_Methods#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_AO_Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_ENV_MDN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -760,34 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddChecking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Payment_Basis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_ApplePay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SPRCOM_92088.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -802,20 +761,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SPRCOM_92078.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_ApplePay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="19" selection-end-column="93" />
-          <folding>
-            <marker date="1569957622100" expanded="true" signature="614:1022" ph="..." />
-          </folding>
+        <state relative-caret-position="750">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        <state relative-caret-position="213">
+          <caret line="31" selection-start-line="31" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddChecking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Payment_Basis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Util/iOS_Driver_Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="177" column="23" selection-start-line="177" selection-start-column="23" selection-end-line="177" selection-end-column="23" />
+          <folding>
+            <element signature="imports" />
+            <element signature="method#findByAccessibilityID_Click#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_Click#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_SendKey#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_Clear#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_GetText#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_Enable#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_Counts#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_Exist#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_Click#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_Clear#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_Clear#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_SendKey#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_SendKey#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_Exist#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByName_Click#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByName_SendKey#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByName_Exist#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByID_SendKeys#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByCoord_Click#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByValueXpath_Click#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByValueXpath_Exist#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByaccessibilityID_ScrollDown#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByaccessibilityID_ScrollDown#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByPoint_ScrollDown#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByPoint_ScrollDown#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#allure_mes#0;class#iOS_Driver_Methods#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPRCOM_92078.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <marker date="1569958476095" expanded="true" signature="618:1054" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_AO_Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Base/DefaultPages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="48" selection-start-line="48" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_ENV_MDN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/remote/AppiumCommandExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
         </state>
       </provider>
     </entry>
