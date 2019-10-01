@@ -23,12 +23,12 @@ public class SPRCOM_107200_LoginAO_AddNewLine_Main extends MainBase {
                               String protectionOption)
     {
         SPRCOM_107202_Step1();
-        SPRCOM_107202_Step2(deviceType);
-        SPRCOM_107202_Step3();
+        SPRCOM_107202_Step2();
+        SPRCOM_107202_Step3(deviceType);
         SPRCOM_107202_Step4(model);
         SPRCOM_107202_Step5();
         SPRCOM_107202_Step6(planOption);
-        SPRCOM_107202_Step7(phonePlan);
+        SPRCOM_107202_Step7(phonePlan, deviceType);
         SPRCOM_107202_Step8(protectionOption);
         SPRCOM_107202_Step9();
     }
@@ -44,63 +44,73 @@ public class SPRCOM_107200_LoginAO_AddNewLine_Main extends MainBase {
         }
     }
 
-    @Step("2. Tap 'Get priority status' if priority page showed up and 'Device' icon based on data provider")
-    private void SPRCOM_107202_Step2(String deviceType)
+    @Step("2. Tap 'Get priority status' if priority page showed up")
+    private void SPRCOM_107202_Step2()
     {
         saveTextLog_Allure_er("Device options page is displayed");
-        findByAccessibilityID_Click(5, "Get Priority Status");
+        if(findByAccessibilityID_Exist(5, "Get Priority Status")) {
+            findByAccessibilityID_Click(5, "Get Priority Status");
+        }
+    }
+
+    @Step("3. Tap 'Device' icon based on data provider")
+    private void SPRCOM_107202_Step3(String deviceType)
+    {
+        saveTextLog_Allure_er("Device list page is displayed");
         findByID_Click(5, deviceType);
     }
 
-    @Step("3. Tap 'Add a new phone' on the page")
-    private void SPRCOM_107202_Step3()
-    {
-        saveTextLog_Allure_er("Device list page is displayed");
-        findByAccessibilityID_Click(25, "Add a new phone");
-        if(findByID_Exist(5, "OK")) {
-            findByID_Click(3, "OK");
-            assertFail(true, 2, "Back server error!");
-        }
-    }
-    @Step("4. Default filter, tap ‘Apple iPhone XS’")
+    @Step("4. Default filter, tap model form data provider")
     private void SPRCOM_107202_Step4(String model)
     {
         saveTextLog_Allure_er("Device Details page is displayed");
-        findByID_Click(60, model);
+        findByID_Click(60, model, true);
     }
+
     @Step("5. Make sure Continue button is enabled and tap it")
     private void SPRCOM_107202_Step5()
     {
         saveTextLog_Allure_er("Payment page is displayed");
-        findByAccessibilityID_Click(25, "Continue");
-        findByID_Click(3, "Continue");
+        findByAccessibilityID_Click(25, "Continue", true);
     }
 
     @Step("6. Use Data Provider with three options and tap continue")
     private void SPRCOM_107202_Step6(String planOption)
     {
         saveTextLog_Allure_er("Wait for loading(20s) and Plans page is displayed");
-        findByID_Click(15, planOption);
+        String planOptionNew;
+        if(planOption.equals("full")) {
+            planOptionNew = "Full price";
+        } else if(planOption.equals("Lease")) {
+            planOptionNew = "Sprint Flex 18 mo. lease starting at";
+        } else {
+            planOptionNew = "Buy it with 24 monthly installments";
+        }
+        findByID_Click(15, planOptionNew);
         findByID_Click(5, "Continue");
     }
-    @Step("7. Make sure default Continue button is disabled and click default shared plan ($20)? , tap Continue")
-    private void SPRCOM_107202_Step7(String phonePLan)
+
+    @Step("7. Make sure default Continue button is disabled and click plan, tap Continue")
+    private void SPRCOM_107202_Step7(String phonePLan, String deviceType)
     {
         saveTextLog_Allure_er("Protection page is displayed");
-        findByID_Click(30, phonePLan);
-        findByAccessibilityID_Click(5, "Select and continue");
-        findByID_Click(3, "Select and continue");
+        if(deviceType.equals("Tablets")) {
+            findByAccessibilityID_Click(30, "Select and continue", true);
+        } else {
+            findByAccessibilityID_Click(30, phonePLan, true);
+            findByAccessibilityID_Click(5, "Continue");
+        }
     }
-    @Step("8. Tap button ‘Add protection’?")
+    @Step("8. Tap button ‘Add protection’")
     private void SPRCOM_107202_Step8(String protectionOption)
     {
-        saveTextLog_Allure_er("Wait for loading(15s), Cart page is displayed");
-        findByID_Click(15, protectionOption);
+        saveTextLog_Allure_er("Cart page is displayed");
+        findByID_Click(15, protectionOption, true);
     }
-    @Step("9. Verify the value of monthly and today due")
+    @Step("9. Return back to main page")
     private void SPRCOM_107202_Step9()
     {
-        saveTextLog_Allure_er("All payment values are correct");
-        findByID_Click(15, "Cancel");
+        saveTextLog_Allure_er("Main page is displayed");
+        findByID_Click(25, "Cancel", true);
     }
 }

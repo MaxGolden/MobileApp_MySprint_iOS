@@ -125,7 +125,6 @@ public class SPRCOM_106300_iOS_NonLogin_CardTypeVerify extends MainBase {
         }
     }
 
-
     @Step("6. Tap 'Authorize' button on the bottom sheet")
     private void SPRCOM_106304_Step6()
     {

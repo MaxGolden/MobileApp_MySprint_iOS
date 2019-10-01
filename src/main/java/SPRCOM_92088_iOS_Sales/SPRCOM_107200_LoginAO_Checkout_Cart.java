@@ -111,32 +111,5 @@ public class SPRCOM_107200_LoginAO_Checkout_Cart extends MainBase {
                 "order summary", "promotions and discounts");
         findByID_Click(5, "OK");
 
-//        iosDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-//        List<IOSElement> Warning_m1 = iosDriver.findElementsById("Not Now");
-//        try {
-//            if(Warning_m1.size() > 0) {
-//
-//            } else {
-//                // Please do not attempt to resubmit, as it may result in duplicate transaction
-//                System.out.println("ERROR: 'We are having technical difficulties. ...'");
-//                saveTextLog_Allure("ERROR: 'We are having technical difficulties. ...'");
-//                saveScreenshotPNG_Allure(iosDriver);
-//                iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//                iosDriver.findElementById("OK").click();
-//
-//                iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//                iosDriver.findElementByAccessibilityId("Cancel order and return to cart").click();
-//
-//                iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//                iosDriver.findElementByAccessibilityId("Cancel").click();
-//
-//                // ...........
-//                Thread.sleep(2000);
-//                Assert.fail();
-//            }
-//        }catch (NoSuchElementException e) {
-//            System.out.println("Error: No such element found!");
-//            Assert.fail();
-//        }
     }
 }

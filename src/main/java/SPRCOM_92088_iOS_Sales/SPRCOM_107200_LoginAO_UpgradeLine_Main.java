@@ -36,61 +36,71 @@ public class SPRCOM_107200_LoginAO_UpgradeLine_Main extends MainBase {
     {
         saveTextLog_Allure_er("Loading for a long time at first launch(20s) and Shop devices page is displayed");
         if(findByID_Exist(20, "Make a payment")) {
-            findByAccessibilityID_Click(5, "Reserve your new iPhone");
+            if(findByID_Exist(1, "Reserve your new iPhone")) {
+                findByID_Click(5, "Reserve your new iPhone");
+            }
+            if(findByID_Exist(1, "Upgrade this device")) {
+                findByID_Click(1, "Upgrade this device");
+                findByID_Click(3, "Upgrade now");
+            }
         } else {
             assertFail(false, 0, "Unknown Error - Make a payment not found");
         }
     }
 
-    @Step("Extra. Tap 'get priority status' on the page")
+    @Step("Extra. Tap 'get priority status' on the page if it shows up")
     private void SPRCOM_107206_Step_Extra()
     {
-        findByAccessibilityID_Click(5, "Get Priority Status");
-        if(findByID_Exist(5, "OK")) {
-            findByID_Click(5, "OK");
-            assertFail(true, 1, "Backend server error");
+        if(findByAccessibilityID_Exist(5, "Get Priority Status")) {
+            findByAccessibilityID_Click(5, "Get Priority Status");
         }
     }
 
-    @Step("2. (Apple device options as default.) Tap `Apple` filter and tap `Cancel` and tap ‘Apple iPhone XS’ (Model)")
+    @Step("2. Tap model from data provider")
     private void SPRCOM_107206_Step2(String model)
     {
         saveTextLog_Allure_er("Device Details page is displayed");
-        findByID_Click(60, "Apple");
-        findByID_Click(5, "Cancel");
-        findByID_Click(5, model);
+        findByID_Click(60, model, true);
     }
     @Step("3. Make sure Continue button is enabled and tap it")
     private void SPRCOM_107206_Step3()
     {
         saveTextLog_Allure_er("Payment page is displayed");
-        findByID_Click(30, "Continue");
+        findByID_Click(30, "Continue", true);
     }
 
     @Step("4. Use Data Provider with three options and tap continue")
     private void SPRCOM_107206_Step4(String planOption)
     {
         saveTextLog_Allure_er("Wait for loading(20s) and Plans page is displayed");
-        findByID_Click(20, planOption);
+        String planOptionNew;
+        if(planOption.equals("full")) {
+            planOptionNew = "Full price";
+        } else if(planOption.equals("Lease")) {
+            planOptionNew = "Sprint Flex 18 mo. lease starting at";
+        } else {
+            planOptionNew = "Buy it with 24 monthly installments";
+        }
+        findByID_Click(20, planOptionNew, true);
         findByID_Click(5, "Continue");
     }
     @Step("5. Tap button ‘Add protection’?")
     private void SPRCOM_107206_Step5(String protectionOption)
     {
         saveTextLog_Allure_er("Wait for loading(15s), Return page is displayed");
-        findByID_Click(45, protectionOption);
+        findByID_Click(45, protectionOption, true);
     }
     @Step("6. Default Continue disabled, tap ‘Buy this phone` or ‘Return this phone’ and tap Continue")
-    private void SPRCOM_107206_Step6(String RestValueOption) throws Exception
+    private void SPRCOM_107206_Step6(String RestValueOption)
     {
         saveTextLog_Allure_er("20s loading, Cart page is displayed");
-        findByID_Click(35, RestValueOption);
+        findByID_Click(35, RestValueOption, true);
         findByID_Click(10, "Continue");
     }
-    @Step("7. Verify value and tap cancel")
-    private void SPRCOM_107206_Step7() throws InterruptedException
+    @Step("7. Return back to main page")
+    private void SPRCOM_107206_Step7()
     {
-        saveTextLog_Allure_er("All payment values are correct, and MainPage is displayed");
-        findByID_Click(40, "Cancel");
+        saveTextLog_Allure_er("Main page is displayed");
+        findByID_Click(40, "Cancel", true);
     }
 }

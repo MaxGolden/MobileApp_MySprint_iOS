@@ -24,7 +24,7 @@
     <test verbose="2" name="SPRCOM_107100_iOS_LoginAO_Sales">
         <classes>
             <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main" />
-            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart" />
+<!--            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart" />-->
             <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main" />
 <!--            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Shop" />-->
 <!--            <class name="SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Shop" />-->

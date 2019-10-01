@@ -2,498 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2419738c-ece9-4cf1-adce-dca128d6c112" name="Default Changelist" comment="123 test">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mj621194.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mj621194.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPRCOM_92078.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SPRCOM_92078.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SPRCOM_92088.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SPRCOM_92088.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Data/NewLine_DeviceOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/NewLine_DeviceOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Listeners_Tests/Listeners_Example.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_MakePayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_MakePayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107100_iOS_LoginAO_Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_Checkout_Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_AddNewLine_Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_UpgradeAO_Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_AddNewLine_Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_UpgradeAO_Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AALTradeIn.storyboardc/6Vw-tp-7gr-view-ngQ-b6-kX1.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AALTradeIn.storyboardc/6Vw-tp-7gr-view-ngQ-b6-kX1.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AALTradeIn.storyboardc/UIViewController-6Vw-tp-7gr.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AALTradeIn.storyboardc/UIViewController-6Vw-tp-7gr.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ADBMobileConfig-sprint-dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ADBMobileConfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AcceptedBrandsTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AcceptedBrandsTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AccountLanding.storyboardc/Ft6-Ns-Bcg-view-mvP-Kj-CZd.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AccountLanding.storyboardc/Ft6-Ns-Bcg-view-mvP-Kj-CZd.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AccountLanding.storyboardc/UIViewController-Ft6-Ns-Bcg.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AccountLanding.storyboardc/UIViewController-Ft6-Ns-Bcg.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Acknowledgement.storyboardc/UIViewController-lWB-k9-VdX.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Acknowledgement.storyboardc/UIViewController-lWB-k9-VdX.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Acknowledgement.storyboardc/lWB-k9-VdX-view-uJL-IZ-Hbm.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Acknowledgement.storyboardc/lWB-k9-VdX-view-uJL-IZ-Hbm.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ActionController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ActionController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ActionCustomViewTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ActionCustomViewTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ActionTextTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ActionTextTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddNewDevice.storyboardc/AddNewDeviceViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddNewDevice.storyboardc/AddNewDeviceViewController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddNewDevice.storyboardc/eKc-SG-YHt-view-A9r-oS-yxB.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddNewDevice.storyboardc/eKc-SG-YHt-view-A9r-oS-yxB.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddNewDeviceCollectionView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddNewDeviceCollectionView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddNewDeviceCollectionViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddNewDeviceCollectionViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddPaymentAlert.storyboardc/PF1-YX-Z5N-view-odv-0k-gs5.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddPaymentAlert.storyboardc/PF1-YX-Z5N-view-odv-0k-gs5.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddPaymentAlert.storyboardc/UIViewController-PF1-YX-Z5N.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddPaymentAlert.storyboardc/UIViewController-PF1-YX-Z5N.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddPaymentMethod.storyboardc/AddPaymentViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddPaymentMethod.storyboardc/AddPaymentViewController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddPaymentMethod.storyboardc/HuH-L0-u4l-view-vdJ-PO-618.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AddPaymentMethod.storyboardc/HuH-L0-u4l-view-vdJ-PO-618.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AdditionalInfo.storyboardc/UIViewController-VEP-bZ-Z1D.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AdditionalInfo.storyboardc/UIViewController-VEP-bZ-Z1D.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AdditionalInfo.storyboardc/VEP-bZ-Z1D-view-ioQ-rW-gw4.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AdditionalInfo.storyboardc/VEP-bZ-Z1D-view-ioQ-rW-gw4.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Agreements.storyboardc/Tdn-N4-4JW-view-XCR-uo-uDK.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Agreements.storyboardc/Tdn-N4-4JW-view-XCR-uo-uDK.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Agreements.storyboardc/UIViewController-Tdn-N4-4JW.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Agreements.storyboardc/UIViewController-Tdn-N4-4JW.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Assets.car" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AutoPaySelectPayment.storyboardc/JDS-mc-e9W-view-Tuh-EN-V9D.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AutoPaySelectPayment.storyboardc/JDS-mc-e9W-view-Tuh-EN-V9D.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AutoPaySelectPayment.storyboardc/UIViewController-JDS-mc-e9W.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AutoPaySelectPayment.storyboardc/UIViewController-JDS-mc-e9W.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AutoPayTerms.storyboardc/UIViewController-vmT-Io-yt8.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AutoPayTerms.storyboardc/UIViewController-vmT-Io-yt8.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AutoPayTerms.storyboardc/vmT-Io-yt8-view-bwd-yA-3Xt.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/AutoPayTerms.storyboardc/vmT-Io-yt8-view-bwd-yA-3Xt.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Autopay.storyboardc/P3N-Aj-eLF-view-YHD-r3-mHz.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Autopay.storyboardc/P3N-Aj-eLF-view-YHD-r3-mHz.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Autopay.storyboardc/UIViewController-P3N-Aj-eLF.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Autopay.storyboardc/UIViewController-P3N-Aj-eLF.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Login.storyboardc/LoginVC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Login.storyboardc/LoginVC.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Login.storyboardc/UINavigationController-aE7-j2-KNO.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Login.storyboardc/UINavigationController-aE7-j2-KNO.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Login.storyboardc/Zgx-f9-mHd-view-zch-QH-lg5.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Login.storyboardc/Zgx-f9-mHd-view-zch-QH-lg5.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Sprint-LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Sprint-LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Sprint-LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Sprint-LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Sprint-Main.storyboardc/GQ9-tm-rRF-view-iXH-Gn-gXf.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Sprint-Main.storyboardc/GQ9-tm-rRF-view-iXH-Gn-gXf.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Sprint-Main.storyboardc/UIViewController-GQ9-tm-rRF.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Sprint-Main.storyboardc/UIViewController-GQ9-tm-rRF.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Sprint-Main.storyboardc/UIViewController-y5R-L2-fjl.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Base.lproj/Sprint-Main.storyboardc/UIViewController-y5R-L2-fjl.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BillPDF.storyboardc/UIViewController-XYY-BL-Tpm.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BillPDF.storyboardc/UIViewController-XYY-BL-Tpm.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BillPDF.storyboardc/XYY-BL-Tpm-view-2XH-lz-up3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BillPDF.storyboardc/XYY-BL-Tpm-view-2XH-lz-up3.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BillingLanding.storyboardc/UIViewController-vZV-qI-wZ7.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BillingLanding.storyboardc/UIViewController-vZV-qI-wZ7.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BillingLanding.storyboardc/vZV-qI-wZ7-view-t8w-hA-v3e.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BillingLanding.storyboardc/vZV-qI-wZ7-view-t8w-hA-v3e.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BlankTab.storyboardc/UIViewController-c12-p5-DHB.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BlankTab.storyboardc/UIViewController-c12-p5-DHB.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BlankTab.storyboardc/c12-p5-DHB-view-J8l-wC-6oW.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BlankTab.storyboardc/c12-p5-DHB-view-J8l-wC-6oW.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BottomSheet.storyboardc/NMb-iY-GFn-view-ARe-lu-pFX.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BottomSheet.storyboardc/NMb-iY-GFn-view-ARe-lu-pFX.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BottomSheet.storyboardc/UIViewController-NMb-iY-GFn.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/BottomSheet.storyboardc/UIViewController-NMb-iY-GFn.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ButtonBarView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ButtonBarView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ButtonCollectionViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ButtonCollectionViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CallToAction.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CallToAction.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CancelEBill.storyboardc/QKe-JK-B38-view-O2l-Jd-nof.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CancelEBill.storyboardc/QKe-JK-B38-view-O2l-Jd-nof.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CancelEBill.storyboardc/UIViewController-QKe-JK-B38.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CancelEBill.storyboardc/UIViewController-QKe-JK-B38.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartDetails.storyboardc/UIViewController-iXw-61-hmH.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartDetails.storyboardc/UIViewController-iXw-61-hmH.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartDetails.storyboardc/iXw-61-hmH-view-gzG-lZ-M38.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartDetails.storyboardc/iXw-61-hmH-view-gzG-lZ-M38.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartSummary.storyboardc/Lxs-Ds-wXZ-view-6vL-zp-eBz.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartSummary.storyboardc/Lxs-Ds-wXZ-view-6vL-zp-eBz.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartSummary.storyboardc/UIViewController-Lxs-Ds-wXZ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartSummary.storyboardc/UIViewController-Lxs-Ds-wXZ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartSummaryView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartSummaryView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartViewAgreements.storyboardc/UIViewController-nGw-rA-yWI.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartViewAgreements.storyboardc/UIViewController-nGw-rA-yWI.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartViewAgreements.storyboardc/nGw-rA-yWI-view-SWp-qE-vvn.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CartViewAgreements.storyboardc/nGw-rA-yWI-view-SWp-qE-vvn.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CenteredTextButtonTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CenteredTextButtonTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChangePIN.storyboardc/Elb-wF-NYJ-view-Eg9-dN-iVr.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChangePIN.storyboardc/Elb-wF-NYJ-view-Eg9-dN-iVr.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChangePIN.storyboardc/UIViewController-Elb-wF-NYJ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChangePIN.storyboardc/UIViewController-Elb-wF-NYJ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChangeStore.storyboardc/Iux-hn-jPY-view-2ue-YC-fVU.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChangeStore.storyboardc/Iux-hn-jPY-view-2ue-YC-fVU.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChangeStore.storyboardc/UIViewController-Iux-hn-jPY.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChangeStore.storyboardc/UIViewController-Iux-hn-jPY.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Chat.storyboardc/JmU-zN-3ma-view-axJ-fR-t6C.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Chat.storyboardc/JmU-zN-3ma-view-axJ-fR-t6C.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Chat.storyboardc/UIViewController-JmU-zN-3ma.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Chat.storyboardc/UIViewController-JmU-zN-3ma.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChatCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChatCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChatSplash.storyboardc/UIViewController-p4u-GV-ZRf.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChatSplash.storyboardc/UIViewController-p4u-GV-ZRf.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChatSplash.storyboardc/p4u-GV-ZRf-view-Gan-aT-rVd.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChatSplash.storyboardc/p4u-GV-ZRf-view-Gan-aT-rVd.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChatSurvey.storyboardc/FY4-tp-Xdp-view-2Rf-3P-Cer.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChatSurvey.storyboardc/FY4-tp-Xdp-view-2Rf-3P-Cer.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChatSurvey.storyboardc/UIViewController-FY4-tp-Xdp.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChatSurvey.storyboardc/UIViewController-FY4-tp-Xdp.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChooseNewDevice.storyboardc/4Bj-rM-hhs-view-zuU-K0-Yq0.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChooseNewDevice.storyboardc/Gft-Wa-Un0-view-YfK-dH-9rc.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChooseNewDevice.storyboardc/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChooseNewDevice.storyboardc/UIPageViewController-TjH-dd-ZeF.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChooseNewDevice.storyboardc/UIViewController-Gft-Wa-Un0.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChooseNewDevice.storyboardc/newdevice.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChooseNewDevice.storyboardc/r8D-Pk-Hfx-view-qdp-Zm-Ri5.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ChooseNewDevice.storyboardc/shopsprint.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ConfigLocal.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ConfirmationEBill.storyboardc/UIViewController-mwp-AM-iha.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ConfirmationEBill.storyboardc/UIViewController-mwp-AM-iha.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ConfirmationEBill.storyboardc/mwp-AM-iha-view-jpf-Om-WQd.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ConfirmationEBill.storyboardc/mwp-AM-iha-view-jpf-Om-WQd.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ConnectionFailedAlertView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ConnectionFailedAlertView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ContactSupport.storyboardc/ContactSupportViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ContactSupport.storyboardc/ContactSupportViewController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ContactSupport.storyboardc/YTD-9O-rDh-view-KiB-4v-WJb.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ContactSupport.storyboardc/YTD-9O-rDh-view-KiB-4v-WJb.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ContractCarousel.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ContractCarousel.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ContractPaymentOptionsView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ContractPaymentOptionsView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CreditCardCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CreditCardCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CreditCardOwnershipView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CreditCardOwnershipView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CurrentDevice.storyboardc/F6e-ci-plE-view-9WT-oj-i7y.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CurrentDevice.storyboardc/F6e-ci-plE-view-9WT-oj-i7y.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CurrentDevice.storyboardc/UIViewController-F6e-ci-plE.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CurrentDevice.storyboardc/UIViewController-F6e-ci-plE.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CurrentDeviceView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/CurrentDeviceView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Dashboard.storyboardc/3sW-N8-aWN-view-nQn-gl-BNg.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Dashboard.storyboardc/3sW-N8-aWN-view-nQn-gl-BNg.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Dashboard.storyboardc/UIViewController-3sW-N8-aWN.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Dashboard.storyboardc/UIViewController-3sW-N8-aWN.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DatePicker.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DatePicker.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DealsView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DealsView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeclineOptionDetailCollectionViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeclineOptionDetailCollectionViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeclineOptionDetailView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeclineOptionDetailView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeclineProtection.storyboardc/UIViewController-tZe-5N-0PC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeclineProtection.storyboardc/UIViewController-tZe-5N-0PC.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeclineProtection.storyboardc/tZe-5N-0PC-view-5VL-mM-VUw.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeclineProtection.storyboardc/tZe-5N-0PC-view-5VL-mM-VUw.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeliveryInformationCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeliveryInformationCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceCarousel.storyboardc/PEo-pe-4lw-view-w5q-E5-CVb.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceCarousel.storyboardc/PEo-pe-4lw-view-w5q-E5-CVb.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceCarousel.storyboardc/UIViewController-PEo-pe-4lw.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceCarousel.storyboardc/UIViewController-PEo-pe-4lw.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceColorsAndStorageView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceColorsAndStorageView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceOverview.storyboardc/IvI-cf-z2b-view-4z1-JS-CAZ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceOverview.storyboardc/IvI-cf-z2b-view-4z1-JS-CAZ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceOverview.storyboardc/UIViewController-IvI-cf-z2b.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceOverview.storyboardc/UIViewController-IvI-cf-z2b.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceSummaryCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceSummaryCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceTypeCollectionView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DeviceTypeCollectionView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DueInfoCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DueInfoCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DueViewTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/DueViewTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBill.storyboardc/UIViewController-eCQ-h1-chr.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBill.storyboardc/UIViewController-eCQ-h1-chr.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBill.storyboardc/eCQ-h1-chr-view-DF0-Rx-0Y4.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBill.storyboardc/eCQ-h1-chr-view-DF0-Rx-0Y4.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillLanguage.storyboardc/UIViewController-VOu-aU-uT5.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillLanguage.storyboardc/UIViewController-VOu-aU-uT5.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillLanguage.storyboardc/VOu-aU-uT5-view-wSX-pT-teY.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillLanguage.storyboardc/VOu-aU-uT5-view-wSX-pT-teY.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillNewEmail.storyboardc/UIViewController-v8G-mK-26e.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillNewEmail.storyboardc/UIViewController-v8G-mK-26e.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillNewEmail.storyboardc/v8G-mK-26e-view-p5d-Wc-jtN.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillNewEmail.storyboardc/v8G-mK-26e-view-p5d-Wc-jtN.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillOptions.storyboardc/5ho-oj-LuK-view-Gu9-w2-DXQ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillOptions.storyboardc/5ho-oj-LuK-view-Gu9-w2-DXQ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillOptions.storyboardc/UIViewController-5ho-oj-LuK.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EBillOptions.storyboardc/UIViewController-5ho-oj-LuK.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditBillingAddress.storyboardc/3YY-Ut-OrJ-view-Kl1-ka-6MW.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditBillingAddress.storyboardc/3YY-Ut-OrJ-view-Kl1-ka-6MW.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditBillingAddress.storyboardc/UIViewController-3YY-Ut-OrJ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditBillingAddress.storyboardc/UIViewController-3YY-Ut-OrJ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditBillingAddressConfirmation.storyboardc/UIViewController-yoW-mn-DpQ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditBillingAddressConfirmation.storyboardc/UIViewController-yoW-mn-DpQ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditBillingAddressConfirmation.storyboardc/yoW-mn-DpQ-view-2qW-b4-iId.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditBillingAddressConfirmation.storyboardc/yoW-mn-DpQ-view-2qW-b4-iId.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditEmailID.storyboardc/I6t-AA-ie2-view-apx-9U-YUk.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditEmailID.storyboardc/I6t-AA-ie2-view-apx-9U-YUk.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditEmailID.storyboardc/UIViewController-I6t-AA-ie2.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditEmailID.storyboardc/UIViewController-I6t-AA-ie2.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditPassword.storyboardc/I6t-AA-ie2-view-apx-9U-YUk.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditPassword.storyboardc/I6t-AA-ie2-view-apx-9U-YUk.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditPassword.storyboardc/UIViewController-I6t-AA-ie2.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditPassword.storyboardc/UIViewController-I6t-AA-ie2.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditSubscriberAddress.storyboardc/Nvw-My-Qoi-view-5Xa-pP-9J7.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditSubscriberAddress.storyboardc/Nvw-My-Qoi-view-5Xa-pP-9J7.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditSubscriberAddress.storyboardc/UIViewController-Nvw-My-Qoi.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditSubscriberAddress.storyboardc/UIViewController-Nvw-My-Qoi.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditUsername.storyboardc/I6t-AA-ie2-view-apx-9U-YUk.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditUsername.storyboardc/I6t-AA-ie2-view-apx-9U-YUk.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditUsername.storyboardc/UIViewController-I6t-AA-ie2.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EditUsername.storyboardc/UIViewController-I6t-AA-ie2.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EmergencyMessageViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EmergencyMessageViewController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EnterSubscriberAddress.storyboardc/UIViewController-Z1X-7Z-p6x.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EnterSubscriberAddress.storyboardc/UIViewController-Z1X-7Z-p6x.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EnterSubscriberAddress.storyboardc/Z1X-7Z-p6x-view-E6T-g7-Kid.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EnterSubscriberAddress.storyboardc/Z1X-7Z-p6x-view-E6T-g7-Kid.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Environment.storyboardc/EnvironmentScene.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Environment.storyboardc/EnvironmentScene.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Environment.storyboardc/Xn8-iB-1lN-view-QOt-2L-FwV.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Environment.storyboardc/Xn8-iB-1lN-view-QOt-2L-FwV.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Environments_qa.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Environments_qa.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EquipmentProtection.storyboardc/HrV-rr-Jcc-view-yF9-vb-RBa.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EquipmentProtection.storyboardc/HrV-rr-Jcc-view-yF9-vb-RBa.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EquipmentProtection.storyboardc/UIViewController-HrV-rr-Jcc.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/EquipmentProtection.storyboardc/UIViewController-HrV-rr-Jcc.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpandableView.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpressPay.storyboardc/5oz-59-NBp-view-uG0-VP-mcj.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpressPay.storyboardc/5oz-59-NBp-view-uG0-VP-mcj.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpressPay.storyboardc/ExpressPayBillingViewControllerID.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpressPay.storyboardc/ExpressPayBillingViewControllerID.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpressPay.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpressPay.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpressPay.storyboardc/UIViewController-bXS-J8-Mv4.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpressPay.storyboardc/UIViewController-bXS-J8-Mv4.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpressPay.storyboardc/t0B-GA-fvf-view-ivI-1L-ad1.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ExpressPay.storyboardc/t0B-GA-fvf-view-ivI-1L-ad1.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FavouriteButtonView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FavouriteButtonView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FeatureCollectionCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FeatureCollectionCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FiltersCollectionView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FiltersCollectionView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FinancingOfferView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FinancingOfferView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FinancingOffers.storyboardc/J6B-uW-n7U-view-Ufg-yd-Vzu.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FinancingOffers.storyboardc/J6B-uW-n7U-view-Ufg-yd-Vzu.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FinancingOffers.storyboardc/UIViewController-J6B-uW-n7U.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FinancingOffers.storyboardc/UIViewController-J6B-uW-n7U.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FindStore.storyboardc/UIViewController-vCH-g8-KfY.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FindStore.storyboardc/UIViewController-vCH-g8-KfY.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FindStore.storyboardc/vCH-g8-KfY-view-6XF-7K-m70.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FindStore.storyboardc/vCH-g8-KfY-view-6XF-7K-m70.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FindStoreTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FindStoreTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexAgreementSelector.storyboardc/6ps-8d-R4K-view-wQg-MH-ts0.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexAgreementSelector.storyboardc/6ps-8d-R4K-view-wQg-MH-ts0.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexAgreementSelector.storyboardc/UIViewController-6ps-8d-R4K.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexAgreementSelector.storyboardc/UIViewController-6ps-8d-R4K.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexBuyout.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexBuyout.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexBuyout.storyboardc/JLe-yi-0OF-view-SKj-qA-lav.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexBuyout.storyboardc/JLe-yi-0OF-view-SKj-qA-lav.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexBuyout.storyboardc/UIViewController-eGI-mS-uqh.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexBuyout.storyboardc/UIViewController-eGI-mS-uqh.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexInstallmentAgreement.storyboardc/Tor-at-jfT-view-z3d-Uu-Du6.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexInstallmentAgreement.storyboardc/Tor-at-jfT-view-z3d-Uu-Du6.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexInstallmentAgreement.storyboardc/UIViewController-Tor-at-jfT.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexInstallmentAgreement.storyboardc/UIViewController-Tor-at-jfT.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexLeasePreference.storyboardc/FlexLeasePreference.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexLeasePreference.storyboardc/FlexLeasePreference.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexLeasePreference.storyboardc/eXV-sK-MbY-view-1ci-rv-GeV.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexLeasePreference.storyboardc/eXV-sK-MbY-view-1ci-rv-GeV.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexPendingAgreementCancellation.storyboardc/9yg-At-bJ5-view-eIp-6o-MAd.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexPendingAgreementCancellation.storyboardc/9yg-At-bJ5-view-eIp-6o-MAd.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexPendingAgreementCancellation.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexPendingAgreementCancellation.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexViewAgreements.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexViewAgreements.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexViewAgreements.storyboardc/sfK-eD-OkP-view-M3D-WA-PJX.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/FlexViewAgreements.storyboardc/sfK-eD-OkP-view-M3D-WA-PJX.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotPassword.storyboardc/ForgotPassword.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotPassword.storyboardc/ForgotPassword.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotPassword.storyboardc/ResetPassword.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotPassword.storyboardc/ResetPassword.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotPassword.storyboardc/ZNl-pc-bQn-view-eaW-wb-2Os.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotPassword.storyboardc/ZNl-pc-bQn-view-eaW-wb-2Os.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotPassword.storyboardc/myU-To-6Pm-view-2lQ-Vc-5L0.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotPassword.storyboardc/myU-To-6Pm-view-2lQ-Vc-5L0.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotUsername.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotUsername.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotUsername.storyboardc/bw4-OQ-UNb-view-0mU-kZ-EIC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ForgotUsername.storyboardc/bw4-OQ-UNb-view-0mU-kZ-EIC.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Authentication.framework/Authentication" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Authentication.framework/Authentication" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Authentication.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Authentication.framework/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Authentication.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Authentication.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/IBDesignable.framework/IBDesignable" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/IBDesignable.framework/IBDesignable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/IBDesignable.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/IBDesignable.framework/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/IBDesignable.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/IBDesignable.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Postpaid.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Postpaid.framework/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Postpaid.framework/Postpaid" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Postpaid.framework/Postpaid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Postpaid.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/Postpaid.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SDWebImage.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SDWebImage.framework/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SDWebImage.framework/SDWebImage" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SDWebImage.framework/SDWebImage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintCommon.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintCommon.framework/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintCommon.framework/SprintCommon" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintCommon.framework/SprintCommon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintCommon.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintCommon.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/Assets.car" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/CardView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/CardView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/CarrierAlertView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/CarrierAlertView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRow3ColumnTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRow3ColumnTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowButtonTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowButtonTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowDivider01TableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowDivider01TableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowHeader01TableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowHeader01TableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowLargeSubTitleTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowLargeSubTitleTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowSpacer01TableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowSpacer01TableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowTableViewCell01.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowTableViewCell01.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowTableViewCell07.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowTableViewCell07.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowTableViewCell09.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowTableViewCell09.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowTableViewCell10.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/ListRowTableViewCell10.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/SprintUICommon" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/SprintUICommon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/StatusController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/StatusController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/StatusIndicator.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/StatusIndicator.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/SubscriberSelectTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/SubscriberSelectTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/en.lproj/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/en.lproj/Localizable.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/es.lproj/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/SprintUICommon.framework/es.lproj/Localizable.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftAVFoundation.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftAVFoundation.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftContacts.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftContacts.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCore.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCore.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreAudio.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreAudio.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreData.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreData.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreFoundation.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreFoundation.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreGraphics.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreGraphics.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreImage.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreImage.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreLocation.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreLocation.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreMedia.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftCoreMedia.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftDarwin.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftDarwin.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftDispatch.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftDispatch.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftFoundation.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftFoundation.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftMapKit.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftMapKit.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftMetal.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftMetal.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftNetwork.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftNetwork.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftObjectiveC.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftObjectiveC.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftQuartzCore.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftQuartzCore.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftSwiftOnoneSupport.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftSwiftOnoneSupport.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftUIKit.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftUIKit.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftos.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftos.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftsimd.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Frameworks/libswiftsimd.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadyChooseNewDevice.storyboardc/4Bj-rM-hhs-view-zuU-K0-Yq0.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadyChooseNewDevice.storyboardc/Gft-Wa-Un0-view-YfK-dH-9rc.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadyChooseNewDevice.storyboardc/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadyChooseNewDevice.storyboardc/UIPageViewController-TjH-dd-ZeF.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadyChooseNewDevice.storyboardc/UIViewController-Gft-Wa-Un0.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadyChooseNewDevice.storyboardc/newdevice.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadyConfirmation.storyboardc/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadyConfirmation.storyboardc/UIViewController-lXM-4b-BOy.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadyConfirmation.storyboardc/lXM-4b-BOy-view-kx1-Lk-17U.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadySelectedPhone.storyboardc/Bg5-AD-O6c-view-8XS-1C-NBd.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadySelectedPhone.storyboardc/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadySelectedPhone.storyboardc/UIViewController-Bg5-AD-O6c.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadySplashScreen.storyboardc/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadySplashScreen.storyboardc/Pgd-wG-iBF-view-BMb-JW-1zZ.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/GetReadySplashScreen.storyboardc/UIViewController-Pgd-wG-iBF.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ImportantDisclosure.storyboardc/UIViewController-h15-Q9-oiM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ImportantDisclosure.storyboardc/UIViewController-h15-Q9-oiM.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ImportantDisclosure.storyboardc/h15-Q9-oiM-view-jNI-FI-QwI.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ImportantDisclosure.storyboardc/h15-Q9-oiM-view-jNI-FI-QwI.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LabelButtonView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LabelButtonView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LabelWithCheckboxView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LabelWithCheckboxView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LabelWithImageView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LabelWithImageView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRow30TableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRow30TableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowAlertViewTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowAlertViewTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowCircleViewLabel01Cell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowCircleViewLabel01Cell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowData01TableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowData01TableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowDisclaimerCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowDisclaimerCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowLabelWithCircleViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowLabelWithCircleViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowPicker01TableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowPicker01TableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowSwitch01TableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowSwitch01TableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell02.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell02.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell03.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell03.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell04.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell04.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell05.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell05.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell06.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell06.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell08.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell08.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell11.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell11.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell12.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell12.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell13.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell13.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell14.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTableViewCell14.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTermsAndConditionsTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTermsAndConditionsTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowText01TableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowText01TableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTextField01TableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTextField01TableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTextField02TableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowTextField02TableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowThreeLabelTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowThreeLabelTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowView08.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ListRowView08.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LoanAgreements.storyboardc/59U-cR-tds-view-gRD-Y2-hG4.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LoanAgreements.storyboardc/59U-cR-tds-view-gRD-Y2-hG4.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LoanAgreements.storyboardc/UIViewController-59U-cR-tds.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LoanAgreements.storyboardc/UIViewController-59U-cR-tds.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LocationPreference.storyboardc/GWd-0Z-81Z-view-Qoq-6G-kZN.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LocationPreference.storyboardc/GWd-0Z-81Z-view-Qoq-6G-kZN.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LocationPreference.storyboardc/UIViewController-GWd-0Z-81Z.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/LocationPreference.storyboardc/UIViewController-GWd-0Z-81Z.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MDN.storyboardc/MDNSetViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MDN.storyboardc/MDNSetViewController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MDN.storyboardc/TD5-P1-cCh-view-j2I-65-E5Z.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MDN.storyboardc/TD5-P1-cCh-view-j2I-65-E5Z.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MakePayment.storyboardc/H1O-2c-015-view-rNM-tB-BPx.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MakePayment.storyboardc/H1O-2c-015-view-rNM-tB-BPx.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MakePayment.storyboardc/UIViewController-H1O-2c-015.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MakePayment.storyboardc/UIViewController-H1O-2c-015.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MakePayment.storyboardc/UIViewController-RqI-Yq-n4c.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MakePayment.storyboardc/UIViewController-RqI-Yq-n4c.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MakePayment.storyboardc/UIViewController-lR3-73-0uV.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MakePayment.storyboardc/UIViewController-lR3-73-0uV.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ManagePayment.storyboardc/3Gb-0t-9JD-view-acA-YS-KHR.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ManagePayment.storyboardc/3Gb-0t-9JD-view-acA-YS-KHR.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ManagePayment.storyboardc/UIViewController-3Gb-0t-9JD.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ManagePayment.storyboardc/UIViewController-3Gb-0t-9JD.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ManagePaymentAddCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ManagePaymentAddCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MySprintProfile.storyboardc/MaQ-lC-6jO-view-n5d-ld-YXR.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MySprintProfile.storyboardc/MaQ-lC-6jO-view-n5d-ld-YXR.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MySprintProfile.storyboardc/UIViewController-MaQ-lC-6jO.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/MySprintProfile.storyboardc/UIViewController-MaQ-lC-6jO.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/OrderConfirmation.storyboardc/MYh-Ih-NDj-view-0MX-ab-B6m.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/OrderConfirmation.storyboardc/MYh-Ih-NDj-view-0MX-ab-B6m.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/OrderConfirmation.storyboardc/UIViewController-MYh-Ih-NDj.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/OrderConfirmation.storyboardc/UIViewController-MYh-Ih-NDj.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/OrderSummary.storyboardc/2jZ-91-H92-view-9cb-5u-6UZ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/OrderSummary.storyboardc/2jZ-91-H92-view-9cb-5u-6UZ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/OrderSummary.storyboardc/UIViewController-2jZ-91-H92.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/OrderSummary.storyboardc/UIViewController-2jZ-91-H92.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentActivity.storyboardc/PAYMENT_ACTIVITY.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentActivity.storyboardc/PAYMENT_ACTIVITY.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentActivity.storyboardc/nFV-7A-AMP-view-UbM-jA-X2n.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentActivity.storyboardc/nFV-7A-AMP-view-UbM-jA-X2n.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentConfirmation.storyboardc/E8N-2V-117-view-6K4-59-s3H.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentConfirmation.storyboardc/E8N-2V-117-view-6K4-59-s3H.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentConfirmation.storyboardc/UIViewController-E8N-2V-117.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentConfirmation.storyboardc/UIViewController-E8N-2V-117.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentHistoryTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentHistoryTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentMethodCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PaymentMethodCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PersonalInformationCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PersonalInformationCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PhoneSpecsTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PhoneSpecsTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PhoneSpecsView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PhoneSpecsView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PhoneWall.storyboardc/UIViewController-bdZ-nB-LzV.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PhoneWall.storyboardc/UIViewController-bdZ-nB-LzV.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PhoneWall.storyboardc/bdZ-nB-LzV-view-pEC-2G-tdu.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PhoneWall.storyboardc/bdZ-nB-LzV-view-pEC-2G-tdu.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PhoneWallFilterView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PhoneWallFilterView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PickerController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PickerController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/5dk-g6-A5P-view-QgB-LC-ahE.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/5dk-g6-A5P-view-QgB-LC-ahE.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/HaI-7m-uHa-view-TXN-J5-mnf.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/HaI-7m-uHa-view-TXN-J5-mnf.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/LocationSearchTable.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/LocationSearchTable.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/UIViewController-5dk-g6-A5P.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/UIViewController-5dk-g6-A5P.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/UIViewController-aQN-bP-Ol8.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/UIViewController-aQN-bP-Ol8.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/aQN-bP-Ol8-view-aZH-0M-det.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperience.storyboardc/aQN-bP-Ol8-view-aZH-0M-det.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperienceConfirmation.storyboardc/UIViewController-hBP-Do-034.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperienceConfirmation.storyboardc/UIViewController-hBP-Do-034.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperienceConfirmation.storyboardc/hBP-Do-034-view-uVC-3h-ogg.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PinpointExperienceConfirmation.storyboardc/hBP-Do-034-view-uVC-3h-ogg.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlanDetails.storyboardc/AbO-au-cpd-view-VHa-vG-DB0.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlanDetails.storyboardc/AbO-au-cpd-view-VHa-vG-DB0.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlanDetails.storyboardc/UIViewController-AbO-au-cpd.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlanDetails.storyboardc/UIViewController-AbO-au-cpd.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlanView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlanView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlansAndServices.storyboardc/0wW-Ms-I77-view-Rp1-3U-go9.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlansAndServices.storyboardc/0wW-Ms-I77-view-Rp1-3U-go9.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlansAndServices.storyboardc/plansandservices.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlansAndServices.storyboardc/plansandservices.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/ADBMobileConfig-sprint-dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/ADBMobileConfig-sprint-prod.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/ADBMobileConfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Assets.car" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/DeliveryInformationCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/DeliveryInformationCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Environments_qa.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Environments_qa.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Login.storyboardc/TE9-H8-xFe-view-gY9-EN-Vj8.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Login.storyboardc/TE9-H8-xFe-view-gY9-EN-Vj8.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Login.storyboardc/UIViewController-TE9-H8-xFe.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Login.storyboardc/UIViewController-TE9-H8-xFe.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/MainInterface.storyboardc/THz-dI-rPU-view-XOV-nT-k0C.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/MainInterface.storyboardc/THz-dI-rPU-view-XOV-nT-k0C.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/MainInterface.storyboardc/UIViewController-THz-dI-rPU.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/MainInterface.storyboardc/UIViewController-THz-dI-rPU.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/My Sprint Chat Beta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/My Sprint Chat Beta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/PlansAndServices.storyboardc/0wW-Ms-I77-view-Rp1-3U-go9.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/PlansAndServices.storyboardc/0wW-Ms-I77-view-Rp1-3U-go9.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/PlansAndServices.storyboardc/plansandservices.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/PlansAndServices.storyboardc/plansandservices.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/SimpleMessage.storyboardc/UIViewController-pZM-yZ-QoZ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/SimpleMessage.storyboardc/UIViewController-pZM-yZ-QoZ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/SimpleMessage.storyboardc/pZM-yZ-QoZ-view-ecg-r5-DXZ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/SimpleMessage.storyboardc/pZM-yZ-QoZ-view-ecg-r5-DXZ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Subscribers.storyboardc/TSE-Az-Nha-view-dlg-lX-18I.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Subscribers.storyboardc/TSE-Az-Nha-view-dlg-lX-18I.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Subscribers.storyboardc/UIViewController-TSE-Az-Nha.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Subscribers.storyboardc/UIViewController-TSE-Az-Nha.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Transcript.storyboardc/UIViewController-rbu-qw-lPP.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Transcript.storyboardc/UIViewController-rbu-qw-lPP.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Transcript.storyboardc/rbu-qw-lPP-view-LNL-fG-R1j.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/Transcript.storyboardc/rbu-qw-lPP-view-LNL-fG-R1j.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PlugIns/My Sprint Chat Beta.appex/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PortIn.storyboardc/Ieq-wi-8Q8-view-dnz-OT-9qv.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PortIn.storyboardc/Ieq-wi-8Q8-view-dnz-OT-9qv.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PortIn.storyboardc/UIViewController-Ieq-wi-8Q8.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PortIn.storyboardc/UIViewController-Ieq-wi-8Q8.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PortInView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PortInView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PreOrderSelectedPhone.storyboardc/Bg5-AD-O6c-view-8XS-1C-NBd.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PreOrderSelectedPhone.storyboardc/ExpressPayPaymentMethodViewControllerID.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PreOrderSelectedPhone.storyboardc/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PreviousPlan.storyboardc/PreviousPlan.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PreviousPlan.storyboardc/PreviousPlan.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PreviousPlan.storyboardc/vHT-Fx-ETS-view-TJc-Hu-g5J.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PreviousPlan.storyboardc/vHT-Fx-ETS-view-TJc-Hu-g5J.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PricingOptions.storyboardc/UIViewController-Xzo-zV-XgV.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PricingOptions.storyboardc/UIViewController-Xzo-zV-XgV.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PricingOptions.storyboardc/Xzo-zV-XgV-view-biV-Bp-FEu.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PricingOptions.storyboardc/Xzo-zV-XgV-view-biV-Bp-FEu.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ProductDetails.storyboardc/UIViewController-Zwc-Nt-cjK.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ProductDetails.storyboardc/UIViewController-Zwc-Nt-cjK.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ProductDetails.storyboardc/Zwc-Nt-cjK-view-Ou1-bw-Adb.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ProductDetails.storyboardc/Zwc-Nt-cjK-view-Ou1-bw-Adb.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ProductDetailsView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ProductDetailsView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PromoDetails.storyboardc/MVG-7Z-MPg-view-goE-jk-buO.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PromoDetails.storyboardc/MVG-7Z-MPg-view-goE-jk-buO.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PromoDetails.storyboardc/UIViewController-MVG-7Z-MPg.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PromoDetails.storyboardc/UIViewController-MVG-7Z-MPg.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PromotionsCollectionView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/PromotionsCollectionView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ProtectionFeatureCollectionCell.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ProtectionOptionView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ProtectionOptionView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/QuickPay.storyboardc/OUj-bd-MWT-view-fwW-ou-WxG.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/QuickPay.storyboardc/OUj-bd-MWT-view-fwW-ou-WxG.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/QuickPay.storyboardc/QuickPayViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/QuickPay.storyboardc/QuickPayViewController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/RefreshView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/RefreshView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ReviewPayment.storyboardc/GiS-eq-R3I-view-ZgG-cP-gcp.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ReviewPayment.storyboardc/GiS-eq-R3I-view-ZgG-cP-gcp.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ReviewPayment.storyboardc/ReviewPaymentViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ReviewPayment.storyboardc/ReviewPaymentViewController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesAddCreditCard.storyboardc/0gc-cR-E2Y-view-IcB-CN-Fuv.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesAddCreditCard.storyboardc/0gc-cR-E2Y-view-IcB-CN-Fuv.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesAddCreditCard.storyboardc/UIViewController-0gc-cR-E2Y.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesAddCreditCard.storyboardc/UIViewController-0gc-cR-E2Y.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesAddress.storyboardc/UIViewController-dym-Fg-BVN.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesAddress.storyboardc/UIViewController-dym-Fg-BVN.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesAddress.storyboardc/dym-Fg-BVN-view-ZCA-j2-gGq.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesAddress.storyboardc/dym-Fg-BVN-view-ZCA-j2-gGq.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesPersonalInfo.storyboardc/UIViewController-jRC-Ob-bTc.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesPersonalInfo.storyboardc/UIViewController-jRC-Ob-bTc.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesPersonalInfo.storyboardc/jRC-Ob-bTc-view-x1o-gh-OSx.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesPersonalInfo.storyboardc/jRC-Ob-bTc-view-x1o-gh-OSx.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesPlans.storyboardc/JKL-JF-LK1-view-7Yt-74-1lw.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesPlans.storyboardc/JKL-JF-LK1-view-7Yt-74-1lw.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesPlans.storyboardc/UIViewController-JKL-JF-LK1.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesPlans.storyboardc/UIViewController-JKL-JF-LK1.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesShipping.storyboardc/UIViewController-XhM-yE-bxb.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesShipping.storyboardc/UIViewController-XhM-yE-bxb.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesShipping.storyboardc/XhM-yE-bxb-view-B8A-bP-PKN.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesShipping.storyboardc/XhM-yE-bxb-view-B8A-bP-PKN.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesWebview.storyboardc/UIViewController-usP-Ea-zHw.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesWebview.storyboardc/UIViewController-usP-Ea-zHw.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesWebview.storyboardc/usP-Ea-zHw-view-tsN-6X-n4o.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SalesWebview.storyboardc/usP-Ea-zHw-view-tsN-6X-n4o.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SecurityInfo.storyboardc/FJu-kn-42y-view-O6c-5j-wwz.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SecurityInfo.storyboardc/FJu-kn-42y-view-O6c-5j-wwz.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SecurityInfo.storyboardc/UIViewController-FJu-kn-42y.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SecurityInfo.storyboardc/UIViewController-FJu-kn-42y.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SecurityQuestions.storyboardc/UIViewController-iwJ-Li-Ngn.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SecurityQuestions.storyboardc/UIViewController-iwJ-Li-Ngn.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SecurityQuestions.storyboardc/iwJ-Li-Ngn-view-eY1-wD-e23.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SecurityQuestions.storyboardc/iwJ-Li-Ngn-view-eY1-wD-e23.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SegmentedView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SegmentedView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SelectPayment.storyboardc/L8q-DE-k2T-view-eBf-OM-zOz.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SelectPayment.storyboardc/L8q-DE-k2T-view-eBf-OM-zOz.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SelectPayment.storyboardc/UIViewController-L8q-DE-k2T.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SelectPayment.storyboardc/UIViewController-L8q-DE-k2T.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SelectPaymentTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SelectPaymentTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SelectedDeviceView.nib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Settings.storyboardc/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Settings.storyboardc/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Settings.storyboardc/McX-cz-caq-view-rVf-6H-teM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Settings.storyboardc/McX-cz-caq-view-rVf-6H-teM.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Settings.storyboardc/SettingsScene.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Settings.storyboardc/SettingsScene.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Settings.storyboardc/UINavigationController-IRF-ub-JqD.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Settings.storyboardc/UINavigationController-IRF-ub-JqD.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ShippingInformationCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ShippingInformationCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ShopLanding.storyboardc/Qgc-Ua-uBV-view-FwU-iR-QaM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ShopLanding.storyboardc/Qgc-Ua-uBV-view-FwU-iR-QaM.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ShopLanding.storyboardc/UIViewController-Qgc-Ua-uBV.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ShopLanding.storyboardc/UIViewController-Qgc-Ua-uBV.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ShoppingIntent.storyboardc/UIViewController-frM-4C-kpQ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ShoppingIntent.storyboardc/UIViewController-frM-4C-kpQ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ShoppingIntent.storyboardc/frM-4C-kpQ-view-XFr-xA-ZMN.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/ShoppingIntent.storyboardc/frM-4C-kpQ-view-XFr-xA-ZMN.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SpanishInvoice.storyboardc/UIViewController-ysC-dK-Inb.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SpanishInvoice.storyboardc/UIViewController-ysC-dK-Inb.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SpanishInvoice.storyboardc/ysC-dK-Inb-view-te0-lw-Wcp.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SpanishInvoice.storyboardc/ysC-dK-Inb-view-te0-lw-Wcp.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SprintBeta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SprintBeta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberAddressCheckboxView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberAddressCheckboxView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberAddressView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberAddressView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberAddresses.storyboardc/UIViewController-zs9-mS-WRX.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberAddresses.storyboardc/UIViewController-zs9-mS-WRX.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberAddresses.storyboardc/zs9-mS-WRX-view-mnu-S0-ZZe.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberAddresses.storyboardc/zs9-mS-WRX-view-mnu-S0-ZZe.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SubscriberView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Subscribers.storyboardc/BqW-Ly-ZRe-view-oBU-yQ-MJ3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Subscribers.storyboardc/BqW-Ly-ZRe-view-oBU-yQ-MJ3.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Subscribers.storyboardc/UIViewController-BqW-Ly-ZRe.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Subscribers.storyboardc/UIViewController-BqW-Ly-ZRe.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SupportLanding.storyboardc/SupportLandingViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SupportLanding.storyboardc/SupportLandingViewController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SupportLanding.storyboardc/y5k-jb-16r-view-iID-C2-cUI.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/SupportLanding.storyboardc/y5k-jb-16r-view-iID-C2-cUI.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TabNavigation.storyboardc/UITabBarController-rxW-qX-Niv.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TabNavigation.storyboardc/UITabBarController-rxW-qX-Niv.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TargetCarrierAlertView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TargetCarrierAlertView.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TermsAndConditions.storyboardc/3mQ-0G-hsn-view-p3U-Md-jIz.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TermsAndConditions.storyboardc/3mQ-0G-hsn-view-p3U-Md-jIz.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TermsAndConditions.storyboardc/UIViewController-3mQ-0G-hsn.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TermsAndConditions.storyboardc/UIViewController-3mQ-0G-hsn.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TextViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TextViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TextfieldInfoButtonTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TextfieldInfoButtonTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TouchIDSplash.storyboardc/UIViewController-lvQ-NU-l00.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TouchIDSplash.storyboardc/UIViewController-lvQ-NU-l00.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TouchIDSplash.storyboardc/lvQ-NU-l00-view-xmf-yF-Q9c.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TouchIDSplash.storyboardc/lvQ-NU-l00-view-xmf-yF-Q9c.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TradeInDeviceConditionDetails.storyboardc/DXh-us-beZ-view-Plv-O7-GVV.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TradeInDeviceConditionDetails.storyboardc/DXh-us-beZ-view-Plv-O7-GVV.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TradeInDeviceConditionDetails.storyboardc/UIViewController-DXh-us-beZ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TradeInDeviceConditionDetails.storyboardc/UIViewController-DXh-us-beZ.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TwoButtonsTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TwoButtonsTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TwoLinkTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/TwoLinkTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UpdateCartPayment.storyboardc/NGk-p4-ltu-view-DA1-0j-ign.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UpdateCartPayment.storyboardc/NGk-p4-ltu-view-DA1-0j-ign.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UpdateCartPayment.storyboardc/UIViewController-NGk-p4-ltu.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UpdateCartPayment.storyboardc/UIViewController-NGk-p4-ltu.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UpgradeEligibility.storyboardc/QSH-C7-8FE-view-bF8-jD-KIK.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UpgradeEligibility.storyboardc/QSH-C7-8FE-view-bF8-jD-KIK.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UpgradeEligibility.storyboardc/UpgradeEligibilityViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UpgradeEligibility.storyboardc/UpgradeEligibilityViewController.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UpgradePaymentInformationCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UpgradePaymentInformationCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageIconMessageTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageIconMessageTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageLanding.storyboardc/UIViewController-vbk-j2-e90.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageLanding.storyboardc/UIViewController-vbk-j2-e90.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageLanding.storyboardc/vbk-j2-e90-view-q2A-Q0-fgT.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageLanding.storyboardc/vbk-j2-e90-view-q2A-Q0-fgT.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageLineItemTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageLineItemTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageLineTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageLineTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageProgressGraphTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/UsageProgressGraphTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/VrtLabelImageTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/VrtLabelImageTableViewCell.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/WebView.storyboardc/UIViewController-cBe-WQ-QDg.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/WebView.storyboardc/UIViewController-cBe-WQ-QDg.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/WebView.storyboardc/cBe-WQ-QDg-view-Oaf-WC-3a0.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/WebView.storyboardc/cBe-WQ-QDg-view-Oaf-WC-3a0.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Welcome.storyboardc/KEL-LU-dAE-view-uA9-81-XFP.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Welcome.storyboardc/KEL-LU-dAE-view-uA9-81-XFP.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Welcome.storyboardc/UIViewController-KEL-LU-dAE.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/Welcome.storyboardc/UIViewController-KEL-LU-dAE.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/WhatsNew.storyboardc/UIViewController-ceV-Eq-VWy.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/WhatsNew.storyboardc/UIViewController-ceV-Eq-VWy.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/WhatsNew.storyboardc/ceV-Eq-VWy-view-co5-eO-EG7.nib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/WhatsNew.storyboardc/ceV-Eq-VWy-view-co5-eO-EG7.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/en.lproj/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/en.lproj/Localizable.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/en.lproj/LocalizableAccessibility.strings" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/en.lproj/LocalizableAccessibility.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/es.lproj/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/es.lproj/Localizable.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/es.lproj/LocalizableAccessibility.strings" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/es.lproj/LocalizableAccessibility.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/libswiftRemoteMirror.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SprintBeta.app/libswiftRemoteMirror.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iOS_Tests/MainBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_MakePayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_ApplePay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_CardTypeVerify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_MakePayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iOS_Tests/iOS_NonLogin_MakePayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/AccountOwner_Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Data/AccountOwner_Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data/NewLine_DeviceOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Data/NewLine_DeviceOptions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Listeners_Tests/Listeners_Example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ios_test_samples.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_MakePayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_MakePayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107100_iOS_LoginAO_Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_Checkout_Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_AddNewLine_Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_UpgradeAO_Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_AddNewLine_Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_UpgradeAO_Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/iOS_Tests/MainBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/iOS_Tests/SPRCOM_92078_iOS_LoginAO_Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/iOS_Tests/SPRCOM_92078_iOS_LoginAO_MakePayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/iOS_Tests/SPRCOM_92078_iOS_NonLogin_ApplePay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/iOS_Tests/SPRCOM_92078_iOS_NonLogin_CardTypeVerify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/iOS_Tests/SPRCOM_92078_iOS_NonLogin_MakePayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/iOS_Tests/iOS_NonLogin_MakePayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_Checkout_Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_Checkout_Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_UpgradeLine_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_UpgradeLine_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/iOS_Driver_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/iOS_Driver_Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/AccountOwner_Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/NewLine_DeviceOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/Payment_CardOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/Payment_CheckingOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/Upgrade_DeviceOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Listeners_iOS/listeners_iOS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_Payment_Basis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddChecking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_ApplePay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Payment_Basis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_AO_Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_ENV_MDN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_Checkout_Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_UpgradeLine_Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_UpgradeLine_Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Util/iOS_Driver_Methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/iOS_Base/DefaultPages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/iOS_Base/MainBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SPRCOM_92088 My Sprint App iOS - Sales/Driver_Launch - iOS iPhone XR BETA6.18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SPRCOM_92088 My Sprint App iOS - Sales/Driver_Launch - iOS iPhone XR BETA6.18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SPRCOM_92088 My Sprint App iOS - Sales/SPRCOM_106900_iOS_Login_AO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SPRCOM_92088 My Sprint App iOS - Sales/SPRCOM_106900_iOS_Login_AO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SPRCOM_92088 My Sprint App iOS - Sales/SPRCOM_107100_iOS_LoginAO_Sales.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SPRCOM_92088 My Sprint App iOS - Sales/SPRCOM_107100_iOS_LoginAO_Sales.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SPRCOM_92088 My Sprint App iOS - Sales/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SPRCOM_92080_iOS_LoginAO.SPRCOM_106900_iOS_AO_Login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SPRCOM_92080_iOS_LoginAO.SPRCOM_106900_iOS_ENV_MDN.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_AddNewLine_Main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_Checkout_Cart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SPRCOM_92088_iOS_Sales.SPRCOM_107200_LoginAO_UpgradeLine_Main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/Driver_Launch - iOS iPhone XR BETA6.18.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/SPRCOM_106900_iOS_Login_AO.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/SPRCOM_107100_iOS_LoginAO_Sales.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/SPRCOM_92088 My Sprint App iOS - Sales/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -510,17 +97,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SPRCOM_92088.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -573,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_MakePayment.java" />
         <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_MakePayment.java" />
         <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_NonLogin_ApplePay.java" />
@@ -598,32 +174,33 @@
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106800_iOS_ENV_MDN.java" />
         <option value="$PROJECT_DIR$/src/main/java/iOS_Base/DefaultPages.java" />
         <option value="$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.java" />
         <option value="$PROJECT_DIR$/src/main/java/iOS_Base/MainBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_Payment_Amount.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_MakePayment.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Payment_Basis.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_Payment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java" />
         <option value="$PROJECT_DIR$/src/main/java/Data/Payment_CheckingOptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_AddChecking.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106800_iOS_LoginAO_ApplePay.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_ENV_MDN.java" />
         <option value="$PROJECT_DIR$/SPRCOM_92078.xml" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_AO_Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Data/NewLine_DeviceOptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_UpgradeAO_Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_Checkout_Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_MainPage_AddNewLine_Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_AddNewLine_Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_ShopPage_UpgradeAO_Cart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Util/iOS_Driver_Methods.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Shop.java" />
-        <option value="$PROJECT_DIR$/SPRCOM_92088.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_Checkout_Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Util/iOS_Driver_Methods.java" />
         <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_UpgradeLine_Main.java" />
+        <option value="$PROJECT_DIR$/SPRCOM_92088.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/NewLine_DeviceOptions.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -651,9 +228,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1888" />
-    <option name="y" value="141" />
-    <option name="width" value="1820" />
+    <option name="x" value="-1848" />
+    <option name="y" value="160" />
+    <option name="width" value="1436" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -703,23 +280,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iOS_Base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileApp_MySprint_iOS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileApp_MySprint_iOS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SPRCOM_92080_iOS_LoginAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileApp_MySprint_iOS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileApp_MySprint_iOS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SPRCOM_92088_iOS_Sales" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileApp_MySprint_iOS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileApp_MySprint_iOS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -835,9 +404,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1881" y="160" width="1820" height="877" extended-state="0" />
+    <frame x="-1848" y="160" width="1436" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25084364" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2969871" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -846,20 +415,20 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="-1" y="31" width="796" height="801" id="Run" order="2" type="FLOATING" visible="true" weight="0.3382688" />
+      <window_info anchor="bottom" x="6" y="34" width="796" height="801" id="Run" order="2" type="FLOATING" visible="true" weight="0.3382688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32866243" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49933687" visible="true" weight="0.26496816" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49933687" weight="0.26496816" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5006631" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32908458" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32908458" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2496329" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.10911136" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.1420373" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -909,8 +478,11 @@
     <MESSAGE value="123 test" />
     <option name="LAST_COMMIT_MESSAGE" value="123 test" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data/SPRCOM_107202_DeviceOptions_Upgrade.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Data/SPRCOM_106308_CardNumbers.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Tests/SPRCOM_92078_iOS_LoginAO_Login.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1020,52 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Base/MainBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="38" column="112" selection-start-line="38" selection-start-column="112" selection-end-line="38" selection-end-column="112" />
-          <folding>
-            <element signature="imports" />
-            <element signature="method#unzip#0;class#MainBase#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Base/DefaultPages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Payment_CardOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Listeners_iOS/listeners_iOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_Payment_Amount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -1139,51 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPRCOM_92078.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <marker date="1569354467410" expanded="true" signature="614:1008" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_AO_Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_Payment_Basis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="36" selection-start-line="36" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data/NewLine_DeviceOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" selection-start-line="12" selection-start-column="28" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_iOS_LoginAO_Sales_Checkout_Cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2457">
@@ -1219,52 +700,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Util/iOS_Driver_Methods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="248" column="112" selection-start-line="248" selection-start-column="112" selection-end-line="248" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Upgrade_DeviceOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-646">
           <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/AccountOwner_Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="8" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Payment_CardOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Base/MainBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="47" column="28" selection-start-line="47" selection-end-line="48" />
+          <folding>
+            <element signature="imports" />
+            <element signature="method#unzip#0;class#MainBase#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Listeners_iOS/listeners_iOS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="39" selection-start-line="39" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_Payment_Basis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_CardTypeVerify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="123" column="42" lean-forward="true" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92078_iOS_Payment/SPRCOM_106300_iOS_NonLogin_ApplePay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_Checkout_Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1004">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="625">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/iOS_Base/DefaultPages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="39" selection-start-line="39" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="810">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92080_iOS_LoginAO/SPRCOM_106900_iOS_AO_Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_UpgradeLine_Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/NewLine_DeviceOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Upgrade_DeviceOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPRCOM_92088.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+        <state relative-caret-position="390">
+          <caret line="26" column="72" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPRCOM_92078.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <marker date="1569354467410" expanded="true" signature="614:1008" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Util/iOS_Driver_Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" />
+            <element signature="method#findByAccessibilityID_Click#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_Click#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_SendKey#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_Clear#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_GetText#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_Enable#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_Counts#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByAccessibilityID_Exist#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_Click#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_Clear#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_Clear#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_SendKey#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_SendKey#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByClassType_Exist#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByName_Click#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByName_SendKey#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByName_Exist#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByID_SendKeys#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByCoord_Click#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByValueXpath_Click#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByValueXpath_Exist#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByaccessibilityID_ScrollDown#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByaccessibilityID_ScrollDown#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByPoint_ScrollDown#0;class#iOS_Driver_Methods#0" />
+            <element signature="method#findByPoint_ScrollDown#1;class#iOS_Driver_Methods#0" />
+            <element signature="method#allure_mes#0;class#iOS_Driver_Methods#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SPRCOM_92088_iOS_Sales/SPRCOM_107200_LoginAO_AddNewLine_Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-490">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>

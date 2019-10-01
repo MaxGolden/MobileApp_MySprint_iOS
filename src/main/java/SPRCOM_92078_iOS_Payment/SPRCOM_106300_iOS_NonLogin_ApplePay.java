@@ -77,6 +77,4 @@ public class SPRCOM_106300_iOS_NonLogin_ApplePay extends MainBase {
         saveTextLog_Allure_er("MainPage is displayed");
         findByID_Click(10, "OK");
     }
-
-
 }
