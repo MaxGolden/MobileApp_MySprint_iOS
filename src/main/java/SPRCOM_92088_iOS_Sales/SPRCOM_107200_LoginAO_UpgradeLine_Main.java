@@ -61,6 +61,7 @@ public class SPRCOM_107200_LoginAO_UpgradeLine_Main extends MainBase {
         saveTextLog_Allure_er("Device Details page is displayed");
         findByID_Click(60, model, true);
     }
+
     @Step("3. Make sure Continue button is enabled and tap it")
     private void SPRCOM_107206_Step3()
     {

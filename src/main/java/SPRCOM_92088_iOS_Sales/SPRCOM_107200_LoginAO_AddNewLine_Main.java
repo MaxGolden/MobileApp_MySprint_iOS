@@ -61,7 +61,7 @@ public class SPRCOM_107200_LoginAO_AddNewLine_Main extends MainBase {
     private void SPRCOM_107202_Step3(String deviceType)
     {
         saveTextLog_Allure_er("Device list page is displayed");
-        findByID_Click(5, deviceType);
+        findByID_Click(5, deviceType, true);
     }
 
     @Step("4. Default filter, tap model form data provider")

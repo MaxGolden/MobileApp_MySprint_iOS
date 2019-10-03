@@ -96,6 +96,7 @@ public class SPRCOM_107200_LoginAO_UpgradeLine_Shop extends MainBase {
         findByID_Click(5, "Continue");
     }
 
+
     @Step("7. Tap button ‘Add protection’?")
     private void SPRCOM_107214_Step7(String protectionOption)
     {
