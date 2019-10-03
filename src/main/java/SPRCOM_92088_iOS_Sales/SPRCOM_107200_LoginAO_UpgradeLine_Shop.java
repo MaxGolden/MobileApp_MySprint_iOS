@@ -77,7 +77,7 @@ public class SPRCOM_107200_LoginAO_UpgradeLine_Shop extends MainBase {
     private void SPRCOM_107214_Step5()
     {
         saveTextLog_Allure_er("Payment page is displayed");
-        findByID_Click(30, "Continue", true);
+        findByID_Click(45, "Continue", true);
     }
 
     @Step("6. Use Data Provider with three options and tap continue")
