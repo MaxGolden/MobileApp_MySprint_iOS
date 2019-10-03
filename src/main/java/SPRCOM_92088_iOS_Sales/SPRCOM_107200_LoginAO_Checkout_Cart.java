@@ -17,7 +17,7 @@ public class SPRCOM_107200_LoginAO_Checkout_Cart extends MainBase {
     @Description("My Sprint App iOS - Check out Test")
     @Severity(SeverityLevel.CRITICAL)
     @Story("SPRCOM-107204 Cart Checkout")
-    public void SPRCOM_107204() throws InterruptedException
+    public void SPRCOM_107204()
     {
         SPRCOM_107204_Step1();
         SPRCOM_107204_Step2();
@@ -64,10 +64,10 @@ public class SPRCOM_107200_LoginAO_Checkout_Cart extends MainBase {
     private void SPRCOM_107204_Step4()
     {
         saveTextLog_Allure_er("First name and Last name are entered");
-        findByClassType_Clear(30, "XCUIElementTypeTextField", 0);
-        findByClassType_SendKey(30, "XCUIElementTypeTextField", 0, "Max");
-        findByClassType_Clear(30, "XCUIElementTypeTextField", 1);
-        findByClassType_SendKey(30, "XCUIElementTypeTextField", 1, "Jin");
+        findByClassType_Clear(45, "XCUIElementTypeTextField", 0);
+        findByClassType_SendKey(3, "XCUIElementTypeTextField", 0, "Max");
+        findByClassType_Clear(3, "XCUIElementTypeTextField", 1);
+        findByClassType_SendKey(3, "XCUIElementTypeTextField", 1, "Jin");
         findByID_Click(3, "Next");
         findByID_Click(3, "Next");
         findByID_Click(3, "Done");
@@ -77,39 +77,39 @@ public class SPRCOM_107200_LoginAO_Checkout_Cart extends MainBase {
     private void SPRCOM_107204_Step5()
     {
         saveTextLog_Allure_er("Delivery Options page(5s) is displayed");
-        findByAccessibilityID_Click(5, "Continue");
-        findByAccessibilityID_Click(5, "Continue");
+        findByAccessibilityID_Click(15, "Continue");
     }
 
     @Step("6. Tap Overnight shipping, and tap Continue")
-    private void SPRCOM_107204_Step6() throws InterruptedException
+    private void SPRCOM_107204_Step6()
     {
         saveTextLog_Allure_er("Summary page is displayed");
-        findByID_Click(20, "Continue");
+        if(findByAccessibilityID_Exist(20, "Overnight shipping")) {
+            findByAccessibilityID_Click(3, "Overnight shipping");
+        }
+        findByAccessibilityID_Click(10, "Continue");
     }
 
     @Step("7. Enter CVV and tap Submit order")
-    private void SPRCOM_107204_Step7() throws InterruptedException
+    private void SPRCOM_107204_Step7()
     {
         saveTextLog_Allure_er("Rate dialog pop up (decline- “OK”)?");
-        findByaccessibilityID_ScrollDown(10, "checkout", "order summary");
-        findByClassType_SendKey(10, "XCUIElementTypeSecureTextField", 0, "000");
+        findByaccessibilityID_ScrollDown(15, "Checkout", "Order summary", 1);
+        findByClassType_SendKey(10, "XCUIElementTypeSecureTextField", "000");
         findByID_Click(5, "Done");
         findByAccessibilityID_Click(3, "Submit order");
     }
 
     @Step("8. Tap Not now")
-    private void SPRCOM_107204_Step8() throws InterruptedException
+    private void SPRCOM_107204_Step8()
     {
         saveTextLog_Allure_er("Payment result page is displayed");
-        if(findByID_Exist(20, "Not Now")) {
+        if(findByID_Exist(30, "Not Now")) {
             findByID_Click(5, "Not Now");
         }
-        findByaccessibilityID_ScrollDown(15,
-                "promotions and discounts", "Order number");
-        findByaccessibilityID_ScrollDown(15,
-                "order summary", "promotions and discounts");
         findByID_Click(5, "OK");
-
+        if(!findByAccessibilityID_Exist(5, "Make a payment")) {
+            assertFail(true, 5, "No main page shows up");
+        }
     }
 }

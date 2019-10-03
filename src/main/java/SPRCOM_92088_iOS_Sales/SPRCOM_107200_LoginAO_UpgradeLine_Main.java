@@ -15,11 +15,11 @@ public class SPRCOM_107200_LoginAO_UpgradeLine_Main extends MainBase {
 
     @Test(groups = {"AccountOwner", "Login"}, priority = 4, dataProvider = "DeviceOption",
             dataProviderClass = Data.Upgrade_DeviceOptions.class)
-    @Description("My Sprint app Sales - MainPage: Get your new device - upgrade")
+    @Description("My Sprint app Login: Sales - MainPage: Get your new device - upgrade")
     @Severity(SeverityLevel.NORMAL)
     @Story("SPRCOM-107206 MainPage: Upgrade Device")
     public void SPRCOM_107206(String deviceType, String brand, String model, String planOption, String phonePlan,
-                              String protectionOption, String RestValueOption) throws Exception
+                              String protectionOption, String RestValueOption)
     {
         SPRCOM_107206_Step1();
         SPRCOM_107206_Step_Extra();
@@ -37,11 +37,10 @@ public class SPRCOM_107200_LoginAO_UpgradeLine_Main extends MainBase {
         saveTextLog_Allure_er("Loading for a long time at first launch(20s) and Shop devices page is displayed");
         if(findByID_Exist(20, "Make a payment")) {
             if(findByID_Exist(1, "Reserve your new iPhone")) {
-                findByID_Click(5, "Reserve your new iPhone");
+                findByID_Click(1, "Reserve your new iPhone");
             }
             if(findByID_Exist(1, "Upgrade this device")) {
                 findByID_Click(1, "Upgrade this device");
-                findByID_Click(3, "Upgrade now");
             }
         } else {
             assertFail(false, 0, "Unknown Error - Make a payment not found");
@@ -51,7 +50,7 @@ public class SPRCOM_107200_LoginAO_UpgradeLine_Main extends MainBase {
     @Step("Extra. Tap 'get priority status' on the page if it shows up")
     private void SPRCOM_107206_Step_Extra()
     {
-        if(findByAccessibilityID_Exist(5, "Get Priority Status")) {
+        if(findByAccessibilityID_Exist(3, "Get Priority Status")) {
             findByAccessibilityID_Click(5, "Get Priority Status");
         }
     }
@@ -76,7 +75,7 @@ public class SPRCOM_107200_LoginAO_UpgradeLine_Main extends MainBase {
         String planOptionNew;
         if(planOption.equals("full")) {
             planOptionNew = "Full price";
-        } else if(planOption.equals("Lease")) {
+        } else if(planOption.equals("lease")) {
             planOptionNew = "Sprint Flex 18 mo. lease starting at";
         } else {
             planOptionNew = "Buy it with 24 monthly installments";

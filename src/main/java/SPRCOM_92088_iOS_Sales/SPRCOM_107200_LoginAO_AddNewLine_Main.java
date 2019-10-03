@@ -38,7 +38,11 @@ public class SPRCOM_107200_LoginAO_AddNewLine_Main extends MainBase {
     {
         saveTextLog_Allure_er("Priority page is displayed or device sheet is displayed");
         if(findByID_Exist(20, "Make a payment")) {
-            findByAccessibilityID_Click(5, "Add a New Device");
+            if(findByAccessibilityID_Exist(3, "Add a new device")) {
+                findByAccessibilityID_Click(5, "Add a new device");
+            } else {
+                findByAccessibilityID_Click(5, "Add a New Device");
+            }
         } else {
             assertFail(false, 0, "Unknown Error - Make a payment not found");
         }
@@ -71,7 +75,7 @@ public class SPRCOM_107200_LoginAO_AddNewLine_Main extends MainBase {
     private void SPRCOM_107202_Step5()
     {
         saveTextLog_Allure_er("Payment page is displayed");
-        findByAccessibilityID_Click(25, "Continue", true);
+        findByAccessibilityID_Click(30, "Continue", true);
     }
 
     @Step("6. Use Data Provider with three options and tap continue")
@@ -81,12 +85,12 @@ public class SPRCOM_107200_LoginAO_AddNewLine_Main extends MainBase {
         String planOptionNew;
         if(planOption.equals("full")) {
             planOptionNew = "Full price";
-        } else if(planOption.equals("Lease")) {
+        } else if(planOption.equals("lease")) {
             planOptionNew = "Sprint Flex 18 mo. lease starting at";
         } else {
             planOptionNew = "Buy it with 24 monthly installments";
         }
-        findByID_Click(15, planOptionNew);
+        findByID_Click(30, planOptionNew);
         findByID_Click(5, "Continue");
     }
 
@@ -97,7 +101,11 @@ public class SPRCOM_107200_LoginAO_AddNewLine_Main extends MainBase {
         if(deviceType.equals("Tablets")) {
             findByAccessibilityID_Click(30, "Select and continue", true);
         } else {
-            findByAccessibilityID_Click(30, phonePLan, true);
+            if(findByAccessibilityID_Exist(30, phonePLan)) {
+                findByAccessibilityID_Click(3, phonePLan, true);
+            } else {
+                findByAccessibilityID_Click(3, "2GB", true);
+            }
             findByAccessibilityID_Click(5, "Continue");
         }
     }
@@ -105,7 +113,7 @@ public class SPRCOM_107200_LoginAO_AddNewLine_Main extends MainBase {
     private void SPRCOM_107202_Step8(String protectionOption)
     {
         saveTextLog_Allure_er("Cart page is displayed");
-        findByID_Click(15, protectionOption, true);
+        findByID_Click(25, protectionOption, true);
     }
     @Step("9. Return back to main page")
     private void SPRCOM_107202_Step9()

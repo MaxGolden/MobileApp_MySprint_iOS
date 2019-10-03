@@ -1,5 +1,7 @@
 package Util;
-
+/*
+    Created by @Hongkun Jin
+ */
 import iOS_Base.MainBase;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.ios.IOSElement;
@@ -32,7 +34,7 @@ public class iOS_Driver_Methods extends MainBase {
                 if(errorDialogCheck) {
                     Error_dialog_detect("Server error");
                 } else {
-                    assertFail(true,10, "Element not found");
+                    assertFail(true,8, "Element not found");
                 }
             }
         }catch (NoSuchElementException e) {
@@ -45,10 +47,9 @@ public class iOS_Driver_Methods extends MainBase {
         List<IOSElement> CountNum = iosDriver.findElementsByAccessibilityId(accessibilityID);
         try {
             if(CountNum.size() > 0) {
-                iosDriver.manage().timeouts().implicitlyWait(timeNum, TimeUnit.SECONDS);
                 iosDriver.findElementByAccessibilityId(accessibilityID).click();
             } else {
-                assertFail(true, 5, "Element not found");
+                assertFail(true, 10, "Element not found");
             }
         }catch (NoSuchElementException e) {
             System.out.println("Exception");
@@ -105,6 +106,7 @@ public class iOS_Driver_Methods extends MainBase {
         return true;
     }
 
+
     // Appium iOS find element by using class Type
     public static void findByClassType_Click(int timeNum, String classType) {
         iosDriver.manage().timeouts().implicitlyWait(timeNum, TimeUnit.SECONDS);
@@ -147,6 +149,7 @@ public class iOS_Driver_Methods extends MainBase {
         return true;
     }
 
+
     // Appium iOS find element by using class name
     public static void findByName_Click(int timeNum, String className) {
         iosDriver.manage().timeouts().implicitlyWait(timeNum, TimeUnit.SECONDS);
@@ -173,6 +176,7 @@ public class iOS_Driver_Methods extends MainBase {
         }
         return true;
     }
+
 
     // Appium find element by using value with text - "text(\"Add a new device\")"
     public static void findByID_Click(int timeNum, String textContent) {
@@ -214,11 +218,13 @@ public class iOS_Driver_Methods extends MainBase {
         return true;
     }
 
+
     // Appium iOS find element by using TouchAction with coordinators
     public static void findByCoord_Click(int X, int Y) {
         TouchAction t = new TouchAction(iosDriver);
         t.tap(PointOption.point(X, Y)).release().perform();
     }
+
 
     // Appium iOS find element by using Xpath
     public static void findByValueXpath_Click(int timeNum, String classValue) {
@@ -236,6 +242,7 @@ public class iOS_Driver_Methods extends MainBase {
         }
         return true;
     }
+
 
     // Appium iOS scroll down by using TouchAction
     public static void findByaccessibilityID_ScrollDown(int timeNum, String Element1, String Element2, int TimeNum) {
@@ -294,7 +301,7 @@ public class iOS_Driver_Methods extends MainBase {
 
     private static void Error_dialog_detect(String FailMessage) {
         if(findByID_Exist(3, Error_Dialog_Button)) {
-            assertFail(true, 5, "Error dialog detected, check detail with " +
+            assertFail(true, 7, "Error dialog detected, check detail with " +
                             "screenshot attachment");
         } else if(findByAccessibilityID_Exist(3, "Sign In")) {
             iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -303,14 +310,16 @@ public class iOS_Driver_Methods extends MainBase {
             iosDriver.findElementByAccessibilityId("Sign In").click();
             saveTextLog_Allure("Login page detected, and login with account password");
         } else {
-            assertFail(true, 5, FailMessage);
+            assertFail(true, 8, FailMessage);
         }
     }
 
+
     // Allure message show in the allure report
-    private static void allure_mes(String FailMessage) {
+    public static void allure_mes(String FailMessage) {
         saveTextLog_Allure("FAIL: " + FailMessage);
     }
+
 
     // Assert fail and back to main page
     public static void assertFail(boolean toMainPage, int backSteps, String FailMessage) {
@@ -318,15 +327,19 @@ public class iOS_Driver_Methods extends MainBase {
         saveScreenshotPNG_Allure_Fail(iosDriver);
         if(toMainPage) {
             for(int i = 1; i <= backSteps; i++) {
-                if(findByID_Exist(2, "OK")) {
-                    findByID_Click(2, "OK");
+                if(findByID_Exist(1, "OK")) {
+                    findByID_Click(1, "OK");
                 }
-                iosDriver.navigate().back();
-                if(findByAccessibilityID_Exist(5, "Make a payment")) {
+                if(findByID_Exist(1, "Browse devices")) {
+                    findByCoord_Click(40, 830);
+                }
+                if(findByAccessibilityID_Exist(3, "Make a payment")) {
                     Assert.fail();
                 }
+                iosDriver.navigate().back();
             }
         } else {
+            findByCoord_Click(40, 830);
             Assert.fail();
         }
     }

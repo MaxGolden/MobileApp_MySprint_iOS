@@ -1,216 +1,132 @@
 package SPRCOM_92088_iOS_Sales;
 
+import Data.AccountOwner_Info;
 import iOS_Base.MainBase;
-import io.appium.java_client.TouchAction;
-import io.appium.java_client.ios.IOSElement;
-import io.appium.java_client.touch.offset.PointOption;
 import io.qameta.allure.*;
-import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.concurrent.TimeUnit;
-
-import static Listeners_iOS.listeners_iOS.saveTextLog_Allure;
 import static Listeners_iOS.listeners_iOS.saveTextLog_Allure_er;
+import static Util.iOS_Driver_Methods.*;
 
 @Listeners(Listeners_iOS.listeners_iOS.class)
 @Epic("SPRCOM-92088 My Sprint App iOS - Sales")
 @Feature("SPRCOM-107200 My Sprint App iOS - LoginAO Sales")
 public class SPRCOM_107200_LoginAO_UpgradeLine_Shop extends MainBase {
 
+    String MDN = AccountOwner_Info.getData()[0][1].toString();
+    String MDN_dash = MDN.substring(0, 3) + "-" + MDN.substring(3, 6) + "-" + MDN.substring(6);
 
-    private Float Monthly_upgrade;
-//    private Float Today;
-
-    @Test(groups = {"AccountOwner", "Login"}, priority = 4, dataProvider = "DeviceOption",
+    @Test(groups = {"AccountOwner", "Login"}, priority = 6, dataProvider = "DeviceOption",
             dataProviderClass = Data.Upgrade_DeviceOptions.class)
-    @Description("My Sprint app iOS: Sales - ShopPage: Get your new device - upgrade")
+    @Description("My Sprint app Login: Sales - ShopPage: Get your new device - upgrade")
     @Severity(SeverityLevel.NORMAL)
-    @Story("SPRCOM-107202 ShopPage: Upgrade device")
-    public void SPRCOM_107206(String deviceType, String brand, String model, String planOption, String phonePlan,
-                              String protectionOption, String RestValueOption, String CurrentDevice) throws Exception
+    @Story("SPRCOM-107214 ShopPage: Upgrade device")
+    public void SPRCOM_107214(String deviceType, String brand, String model, String planOption, String phonePlan,
+                              String protectionOption, String RestValueOption) throws Exception
     {
-        SPRCOM_107212_Step1();
-        SPRCOM_107212_Step2(deviceType, brand);
-        SPRCOM_107212_Step3(CurrentDevice);
-
-        SPRCOM_107206_Step2(model);
-        SPRCOM_107206_Step3();
-        SPRCOM_107206_Step4(planOption);
-        SPRCOM_107206_Step5(protectionOption);
-        SPRCOM_107206_Step6(RestValueOption);
-        SPRCOM_107206_Step7();
-
-        SPRCOM_107212_Step10();
+        SPRCOM_107214_Step1();
+        SPRCOM_107214_Step2(deviceType);
+        SPRCOM_107214_Step3();
+        SPRCOM_107214_Step4(model);
+        SPRCOM_107214_Step5();
+        SPRCOM_107214_Step6(planOption);
+        SPRCOM_107214_Step7(protectionOption);
+        SPRCOM_107214_Step8(RestValueOption);
+        SPRCOM_107214_Step9();
     }
 
     @Step("1. Make sure MainPage is loaded and tap ‘Shop’ page")
-    private void SPRCOM_107212_Step1() throws InterruptedException
+    private void SPRCOM_107214_Step1()
     {
         saveTextLog_Allure_er("Shop page is displayed");
-        iosDriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        List<IOSElement> payment_m =iosDriver.findElementsById("Make a payment");
-        try {
-            if(payment_m.size() < 1) {
-                System.out.println("FAIL: 15sec ... No main page showed with unknown reason! - Screenshot taken");
-                saveTextLog_Allure("FAIL: 15sec ... No main page showed with unknown reason! - Screenshot taken");
-                Assert.fail();
-            }
-        }catch (NoSuchElementException e) {
-            System.out.println("Error: No such element found!");
+        if(findByID_Exist(15, "Make a payment")) {
+            findByCoord_Click(208, 830);
         }
-
-        Thread.sleep(500);
-        TouchAction t = new TouchAction(iosDriver);
-        t.tap(PointOption.point(190, 650)).release().perform();
-
-        iosDriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        List<IOSElement> shop_m =iosDriver.findElementsByAccessibilityId("Browse devices");
-        try {
-            if(shop_m.size() < 1) {
-                System.out.println("FAIL: 15sec ... No main page showed with unknown reason! - Screenshot taken");
-                saveTextLog_Allure("FAIL: 15sec ... No main page showed with unknown reason! - Screenshot taken");
-                Assert.fail();
-            }
-        }catch (NoSuchElementException e) {
-            System.out.println("Error: No such element found!");
-        }
+        if(!findByID_Exist(3, "Browse devices")) {
+            assertFail(false, 0, "Page not displayed");}
     }
 
     @Step("2. Use device type and brand name from data provider and tap them on Shop page")
-    private void SPRCOM_107212_Step2(String deviceType, String Brand) throws Exception
+    private void SPRCOM_107214_Step2(String deviceType) throws Exception
     {
         saveTextLog_Allure_er("Shop Option page is displayed (Add new or upgrade)");
-        iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        iosDriver.findElementById(deviceType).click();
+        findByID_Click(5, deviceType, true);
+        Thread.sleep(1000);
+        findByCoord_Click(130, 500);
+    }
 
-        Thread.sleep(3000);
-        TouchAction t = new TouchAction(iosDriver);
-        t.tap(PointOption.point(100, 400)).release().perform();
-
-        if(deviceType.equals("Others")) {
-            Thread.sleep(1000);
-//            TouchAction t = new TouchAction(iosDriver);
-            t.tap(PointOption.point(100, 400)).release().perform();
+    @Step("3. Make sure MainPage is loaded and tap ‘Shop’ page")
+    private void SPRCOM_107214_Step3()
+    {
+        saveTextLog_Allure_er("Shop page is displayed");
+        if(findByAccessibilityID_Exist(40, MDN_dash)) {
+            findByAccessibilityID_Click(3, MDN_dash, true);
+        } else {
+            findByAccessibilityID_Click(3, MDN, true);
         }
     }
 
-    @Step("3. Tap a line to upgrade")
-    private void SPRCOM_107212_Step3(String CurrentDevice) throws Exception
-    {
-        saveTextLog_Allure_er("Loading for a long time at first launch(20s) and Shop devices page is displayed");
-        iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        iosDriver.findElementById(CurrentDevice).click();
-    }
-
-
-    @Step("4. (Apple device options as default.) Tap `Apple` filter and tap `Cancel` and tap ‘Apple iPhone XS’ (Model)")
-    private void SPRCOM_107206_Step2(String model) throws Exception
+    @Step("4. Tap model from data provider")
+    private void SPRCOM_107214_Step4(String model)
     {
         saveTextLog_Allure_er("Device Details page is displayed");
-        iosDriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        iosDriver.findElementById("Apple").click();
-        Thread.sleep(1000);
-        iosDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        iosDriver.findElementById("Cancel").click();
-
-        iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        iosDriver.findElementById(model).click();
+        findByID_Click(60, model, true);
     }
     @Step("5. Make sure Continue button is enabled and tap it")
-    private void SPRCOM_107206_Step3()
+    private void SPRCOM_107214_Step5()
     {
         saveTextLog_Allure_er("Payment page is displayed");
-        iosDriver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
-        Assert.assertTrue(iosDriver.findElementByAccessibilityId("Continue").isEnabled());
-        System.out.println("PASS: Continue - Default status is enabled");
-
-        iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        iosDriver.findElementById("Continue").click();
+        findByID_Click(30, "Continue", true);
     }
 
     @Step("6. Use Data Provider with three options and tap continue")
-    private void SPRCOM_107206_Step4(String planOption)
+    private void SPRCOM_107214_Step6(String planOption)
     {
         saveTextLog_Allure_er("Wait for loading(20s) and Plans page is displayed");
-        iosDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        iosDriver.findElementById(planOption).click();
-
-        List<IOSElement> Device_Detail = iosDriver.findElementsByClassName("XCUIElementTypeStaticText");
-//        Today = Float.valueOf(Device_Detail.get(5).getText().replace("$", " "));
-        Monthly_upgrade = Float.valueOf(Device_Detail.get(6).getText().replace("$", " "));
-        iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        iosDriver.findElementById("Continue").click();
+        String planOptionNew;
+        if(planOption.equals("full")) {
+            planOptionNew = "Full price";
+        } else if(planOption.equals("lease")) {
+            planOptionNew = "Sprint Flex 18 mo. lease starting at";
+        } else {
+            planOptionNew = "Buy it with 24 monthly installments";
+        }
+        findByID_Click(20, planOptionNew, true);
+        findByID_Click(5, "Continue");
     }
+
     @Step("7. Tap button ‘Add protection’?")
-    private void SPRCOM_107206_Step5(String protectionOption)
+    private void SPRCOM_107214_Step7(String protectionOption)
     {
         saveTextLog_Allure_er("Wait for loading(15s), Return page is displayed");
-        if(protectionOption.equals("Add protection")) {
-            Monthly_upgrade = Monthly_upgrade + 19;
-        }
-        iosDriver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
-        iosDriver.findElementById(protectionOption).click();
+        findByID_Click(45, protectionOption, true);
     }
+
     @Step("8. Default Continue disabled, tap ‘Buy this phone` or ‘Return this phone’ and tap Continue")
-    private void SPRCOM_107206_Step6(String RestValueOption) throws Exception
+    private void SPRCOM_107214_Step8(String RestValueOption)
     {
         saveTextLog_Allure_er("20s loading, Cart page is displayed");
-        iosDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        Assert.assertFalse(iosDriver.findElementByAccessibilityId("Continue").isEnabled());
-        System.out.println("PASS: Continue - Default status is disabled");
-
-        iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        iosDriver.findElementById(RestValueOption).click();
-
-        Thread.sleep(1000);
-        iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        Assert.assertTrue(iosDriver.findElementByAccessibilityId("Continue").isEnabled());
-        System.out.println("PASS: Continue - Default status is enabled");
-
-        iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        iosDriver.findElementById("Continue").click();
-
-    }
-    @Step("9. Verify value and tap cancel")
-    private void SPRCOM_107206_Step7() throws InterruptedException
-    {
-        saveTextLog_Allure_er("All payment values are correct, and MainPage is displayed");
-
-        Thread.sleep(5000);
-        iosDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        Assert.assertTrue(iosDriver.findElementByAccessibilityId("Cancel").isEnabled());
-
-        List<IOSElement> Device_Detail = iosDriver.findElementsByClassName("XCUIElementTypeStaticText");
-//        Assert.assertEquals(Monthly_upgrade , Float.valueOf(Device_Detail.get(7).getText().replace("$", "")));
-
-        saveTextLog_Allure("Due Monthly Value verify Success");
-        iosDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        iosDriver.findElementById("Cancel").click();
-        Thread.sleep(2000);
+        if(findByID_Exist(35, RestValueOption)) {
+            findByID_Click(5, RestValueOption, true);
+            if(findByAccessibilityID_Exist(2, "Continue")) {
+                findByAccessibilityID_Click(2, "Continue");
+            }
+            if(findByAccessibilityID_Exist(2, "Continue")) {
+                findByAccessibilityID_Click(2, "Continue");
+            }
+        }
     }
 
-    @Step("10. Tap Account to main page ")
-    private void SPRCOM_107212_Step10() throws Exception
+    @Step("9. Return back to main page")
+    private void SPRCOM_107214_Step9()
     {
         saveTextLog_Allure_er("Main page is displayed");
-        iosDriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        List<IOSElement> shop_m =iosDriver.findElementsByAccessibilityId("Browse devices");
-        try {
-            if(shop_m.size() < 1) {
-                System.out.println("FAIL: 15sec ... No shop page showed with unknown reason! - Screenshot taken");
-                saveTextLog_Allure("FAIL: 15sec ... No shop page showed with unknown reason! - Screenshot taken");
-                Assert.fail();
-            }
-        }catch (NoSuchElementException e) {
-            System.out.println("Error: No such element found!");
+        findByID_Click(40, "Cancel", true);
+        if(findByID_Exist(5, "Browse devices")) {
+            findByCoord_Click(40, 830);
+        } else {
+            assertFail(false, 0, "Page not displayed");
         }
-
-        Thread.sleep(1000);
-        TouchAction t = new TouchAction(iosDriver);
-        t.tap(PointOption.point(40, 650)).release().perform();
     }
 }
